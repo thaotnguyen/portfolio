@@ -32,9 +32,11 @@ const Container = ({ location }) => {
     '#191819',
     '#191819',
     '#191819',
-    '#e1bee7',
-    '#fcf3d1',
-    '#e5e5e5',
+    '#ecccff',
+    '#ccd8ff',
+    '#ffcccc',
+    '#f2e6c5',
+    '#e3f2fd',
     '#191819',
   ];
 
@@ -74,7 +76,7 @@ const Container = ({ location }) => {
                 className="header left"
                 style={{ left: scroll / 2, opacity: loaded ? 1 : 0 }}
               >
-                <h1>{window.outerWidth > 600 ? 'visual + ux' : ''} designer</h1>
+                <h1>{window.outerWidth > 600 ? 'visual & ux' : ''} designer</h1>
               </div>
             </div>
           </div>
@@ -100,43 +102,88 @@ const Container = ({ location }) => {
         </div>
         <div
           className="project"
-          onClick={() => history.push('/recall')}
+          // onClick={() => history.push('/recall')}
           style={{ color: '#191819' }}
           layoutId="recall"
+          onClick={() => window.open('/recall.pdf', '_blank')}
         >
           <div className="project-content">
+            <h5>Full case study</h5>
             <h1>Recall</h1>
             <h6>
               UX design &middot; UX research &middot; Illustration &middot;
               Development
             </h6>
             <h4>
-              A video platform for automated analysis of UX research interviews.
+              A video platform at Google that enables UX researchers to record,
+              upload, analyze, and share videos of their user studies.
             </h4>
           </div>
           <img
-            src="/recall-tall.png"
+            className="recall-hero"
+            src="/recall-thumbnail.png"
             alt="Recall"
-            style={{
-              filter: 'drop-shadow(5px 5px 5px rgba(100, 100, 100, 50))',
-            }}
           />
         </div>
-        <div className="project" onClick={() => history.push('/fabric')}>
+        <div
+          className="project"
+          // onClick={() => history.push('/fabric')}
+          onClick={() => window.open('/fabric.pdf', '_blank')}
+        >
           <div className="project-content">
+            <h5>Full case study</h5>
             <h1>Fabric UX</h1>
             <h6>
               Brand identity &middot; Visual design &middot; Motion design
             </h6>
             <h4>
-              Complete brand identity and visual system for an internal ads
-              team.
+              A complete brand identity for an ads team at Google, built to
+              bring together what was three teams under one new identity.
             </h4>
           </div>
-          <img src="/fabric-tall.png" alt="Fabric UX" />
+          <img
+            src="/fabric-thumbnail.png"
+            alt="Fabric UX"
+            className="fabric-hero"
+          />
+        </div>
+        <div
+          className="project"
+          // onClick={() => history.push('/fabric')}
+          onClick={() => window.open('/modal.pdf', '_blank')}
+        >
+          <div className="project-content">
+            <h5>Full case study</h5>
+            <h1>Modal</h1>
+            <h6>
+              Brand identity &middot; Visual design &middot; Motion design
+            </h6>
+            <h4>
+              A fashion-centric social media app where users can learn from
+              others, share their outfits and knowledge, and expand their
+              fashion experience.
+            </h4>
+          </div>
+          <img src="/modal-thumbnail.png" alt="Modal" />
         </div>
         <div className="project" onClick={() => history.push('/product')}>
           <div className="project-content">
+            <h5 style={{ marginBottom: 8 }}>Mini-sample</h5>
+            <h1 style={{ marginBottom: 16, lineHeight: '1em' }}>
+              LGBT Asylum Project
+            </h1>
+            <h6>Brand identity &middot; Visual design &middot; Illustration</h6>
+            <h4>
+              The 2020 annual report for the LGBT Asylum project, a nonprofit
+              legal organization helping LGBTQ individuals facing persecution
+              abroad.
+            </h4>
+          </div>
+          <img src="/lgbtq-hero.png" alt="LGBT Asylum Project" />
+        </div>
+        <div className="project" onClick={() => history.push('/product')}>
+          <div className="project-content">
+            <h5>Mini-sample</h5>
             <h1>Illustrations</h1>
             <h6>Illustration</h6>
             <h4>
@@ -144,7 +191,11 @@ const Container = ({ location }) => {
               products.
             </h4>
           </div>
-          <img src="/product.png" alt="Product illustrations" />
+          <img
+            className="illustration-hero"
+            src="/illustration.png"
+            alt="Product illustrations"
+          />
         </div>
         <div className="blurb">
           <p>Get in touch.</p>
@@ -166,7 +217,7 @@ const Container = ({ location }) => {
               Github
             </a>
           </p>
-          <p className="link">
+          {/* <p className="link">
             <a
               href="https://docs.google.com/presentation/d/1CEWNMjdOlGeMsBFCrJzeYkhWuFzA_7eBQWWut9cWlzc/edit?usp=sharing"
               target="_blank"
@@ -174,7 +225,7 @@ const Container = ({ location }) => {
             >
               Portfolio deck
             </a>
-          </p>
+          </p> */}
           <p className="link">
             <a
               href="mailto:thao_nguyen@alumni.brown.edu"

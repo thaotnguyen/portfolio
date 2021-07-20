@@ -17,7 +17,7 @@ export const container = {
     position: 'relative',
     top: 0,
     transition: {
-      staggerChildren: 0.2,
+      staggerChildren: 0.02,
     },
   },
 };
@@ -29,7 +29,7 @@ export const item = {
     position: 'relative',
     transition: {
       duration: 0.6,
-      ease: 'easeInOut',
+      ease: 'easeOut',
     },
     top: 0,
   },

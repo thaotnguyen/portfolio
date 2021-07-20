@@ -41,7 +41,6 @@ section.route-section {
   z-index: 2;
 }
 
-
 .background {
   position: fixed;
   top: 0;
@@ -88,7 +87,8 @@ section.route-section {
     z-index: 1;
     transition: opacity 1s ease-in-out;
 
-    &.left:after, &.right:before {
+    &.left:after,
+    &.right:before {
       content: '';
       display: block;
       height: 10px;
@@ -139,7 +139,7 @@ section.route-section {
   p.link {
     margin: 0;
   }
-  
+
   a {
     color: #e0cfc2;
   }
@@ -156,7 +156,7 @@ section.route-section {
   cursor: pointer;
 
   img {
-    width: auto; 
+    width: auto;
     height: 60%;
     z-index: 0;
 
@@ -168,38 +168,70 @@ section.route-section {
 
   &:nth-of-type(odd) {
     flex-direction: row-reverse;
-  } 
+  }
 
   @media screen and (max-width: 600px) {
     flex-direction: column;
 
     &:nth-of-type(odd) {
       flex-direction: column;
-    } 
+    }
   }
-  
+
   .project-content {
     max-width: 400px;
     padding: 32px;
     z-index: 2;
-    
+
     h1 {
-      margin: 0;
+      margin: 0 0 0 -2px;
     }
 
     h4 {
-      font-weight: 400;
-      font-size: 16px;
+      font-weight: 500;
+      font-size: 21px;
       margin: 0;
     }
 
-    h6 {
+    h5 {
       text-transform: uppercase;
-      font-size: 10px;
+      font-size: 12px;
       font-weight: 800;
+      margin-bottom: -8px;
+      letter-spacing: 1px;
+    }
+
+    h6 {
+      font-size: 14px;
+      font-weight: 500;
       margin: -8px 0 16px 0;
-      letter-spacing: 0.5px;
-      font-family: Helvetica, Arial, sans-serif;
+    }
+  }
+
+  .illustration-hero {
+    height: 20%;
+    width: auto;
+
+    @media screen and (max-width: 600px) {
+      height: auto;
+      width: 90%;
+    }
+  }
+
+  .recall-hero {
+    height: 40%;
+    width: auto;
+
+    @media screen and (max-width: 600px) {
+      height: auto;
+      width: 90%;
+    }
+  }
+
+  .fabric-hero.fabric-hero {
+    @media screen and (max-width: 600px) {
+      height: auto;
+      width: 120%;
     }
   }
 }
