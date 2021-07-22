@@ -217,15 +217,16 @@ const Container = ({ location }) => {
               Github
             </a>
           </p>
-          {/* <p className="link">
+          <p className="link">
             <a
-              href="https://docs.google.com/presentation/d/1CEWNMjdOlGeMsBFCrJzeYkhWuFzA_7eBQWWut9cWlzc/edit?usp=sharing"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => window.open('/resume.pdf', '_blank')}
             >
-              Portfolio deck
+              Resume
             </a>
-          </p> */}
+          </p>
           <p className="link">
             <a
               href="mailto:thao_nguyen@alumni.brown.edu"

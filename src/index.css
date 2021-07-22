@@ -129,6 +129,9 @@
        font-style: normal;
 }
 
+html {
+  background: #191819;
+}
 
 body {
   margin: 0;
