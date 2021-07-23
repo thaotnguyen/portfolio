@@ -35,7 +35,7 @@ const Container = ({ location }) => {
     '#ecccff',
     '#ccd8ff',
     '#ffcccc',
-    '#f2e6c5',
+    // '#f2e6c5',
     '#e3f2fd',
     '#191819',
   ];
@@ -166,7 +166,7 @@ const Container = ({ location }) => {
           </div>
           <img src="/modal-thumbnail.png" alt="Modal" />
         </div>
-        <div className="project" onClick={() => history.push('/product')}>
+        {/* <div className="project" onClick={() => history.push('/product')}>
           <div className="project-content">
             <h5 style={{ marginBottom: 8 }}>Mini-sample</h5>
             <h1 style={{ marginBottom: 16, lineHeight: '1em' }}>
@@ -180,7 +180,7 @@ const Container = ({ location }) => {
             </h4>
           </div>
           <img src="/lgbtq-hero.png" alt="LGBT Asylum Project" />
-        </div>
+        </div> */}
         <div className="project" onClick={() => history.push('/product')}>
           <div className="project-content">
             <h5>Mini-sample</h5>
