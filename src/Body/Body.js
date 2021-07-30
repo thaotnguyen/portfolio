@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Switch, useLocation, Route } from 'react-router-dom';
-import { AnimatePresence } from 'framer-motion';
+import { AnimatePresence, useAnimation, motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
 import Homepage from '../Homepage';
 import Recall from '../Recall';
 import Fabric from '../Fabric';
 import Product from '../Product';
-import DSA from '../DSA';
 
 import './Body.scss';
 
@@ -17,7 +17,7 @@ export const container = {
     position: 'relative',
     top: 0,
     transition: {
-      staggerChildren: 0.02,
+      staggerChildren: 0.0,
     },
   },
 };
@@ -28,8 +28,8 @@ export const item = {
     opacity: 1,
     position: 'relative',
     transition: {
-      duration: 0.6,
-      ease: 'easeOut',
+      duration: 0.8,
+      ease: [0.33, 1, 0.68, 1],
     },
     top: 0,
   },
@@ -68,7 +68,6 @@ function Body() {
         <Route path="/recall" component={Recall} />
         <Route path="/fabric" component={Fabric} />
         <Route path="/product" component={Product} />
-        <Route path="/dsa" component={DSA} />
       </Switch>
     </AnimatePresence>
   );

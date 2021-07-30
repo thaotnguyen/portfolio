@@ -32,11 +32,11 @@ const Container = ({ location }) => {
     '#191819',
     '#191819',
     '#191819',
-    '#ecccff',
-    '#ccd8ff',
-    '#ffcccc',
-    // '#f2e6c5',
-    '#e3f2fd',
+    '#320846',
+    '#112150',
+    '#420202',
+    '#662937',
+    '#0e2f10',
     '#191819',
   ];
 
@@ -81,23 +81,23 @@ const Container = ({ location }) => {
             </div>
           </div>
           <div className="chevron" style={{ opacity: fadeArrow ? 0 : 1 }}>
-            &rsaquo;
+            &#x25BC;
           </div>
         </div>
         <div style={{ height: '12vh' }} />
         <div className="blurb">
           <p>
             Hi, I'm Thao and I'm a multidisciplinary UX/visual designer and
-            engineer at Google, based in SF and NYC.
+            engineer at Google, based in NYC and SF.
           </p>
           <p>
             I'm a quick learner who loves impactful, empathetic user-facing work
-            and is interested in social good and helping underserved
-            communities.
+            and is interested in helping underserved communities to amplify
+            their voices.
           </p>
           <p>
-            My goal is to help nonprofits with design, branding, and outreach to
-            amplify their impact.
+            I work in UI/UX design, illustrations, branding &amp; identity
+            design, visual design, product design, animations, and more.
           </p>
         </div>
         <div
@@ -166,7 +166,10 @@ const Container = ({ location }) => {
           </div>
           <img src="/modal-thumbnail.png" alt="Modal" />
         </div>
-        {/* <div className="project" onClick={() => history.push('/product')}>
+        <div
+          className="project"
+          onClick={() => window.open('/lgbtq.pdf', '_blank')}
+        >
           <div className="project-content">
             <h5 style={{ marginBottom: 8 }}>Mini-sample</h5>
             <h1 style={{ marginBottom: 16, lineHeight: '1em' }}>
@@ -174,13 +177,13 @@ const Container = ({ location }) => {
             </h1>
             <h6>Brand identity &middot; Visual design &middot; Illustration</h6>
             <h4>
-              The 2020 annual report for the LGBT Asylum project, a nonprofit
+              The 2020 annual report for the LGBT Asylum Project, a nonprofit
               legal organization helping LGBTQ individuals facing persecution
               abroad.
             </h4>
           </div>
           <img src="/lgbtq-hero.png" alt="LGBT Asylum Project" />
-        </div> */}
+        </div>
         <div className="project" onClick={() => history.push('/product')}>
           <div className="project-content">
             <h5>Mini-sample</h5>

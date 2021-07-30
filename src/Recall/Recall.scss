@@ -1,5 +1,6 @@
 .project-page {
-  background: white;
+  background: #191819;
+  color: white;
   min-height: 100vh;
   min-width: 100vw;
   display: flex;
@@ -8,12 +9,13 @@
   overflow-x: hidden;
 
   h1 {
-    font-size: 36px;
+    font-size: 48px;
     margin-bottom: 16px;
     max-width: 600px;
-    text-align: center;
+    text-align: left;
     width: 100%;
     padding: 0 32px;
+    margin-top: 64px;
   }
 
   p {
@@ -21,6 +23,7 @@
     padding: 0 32px;
     margin-bottom: 32px;
     line-height: 1.5em;
+    color: #aaaaaa;
 
     @media screen and (max-width: 600px) {
       flex-direction: column;
@@ -31,9 +34,5 @@
     width: 100%;
     padding: 32px 32px 8px 32px;
     max-width: 800px;
-
-    &:first-of-type {
-      max-width: 1000px;
-    }
   }
 }

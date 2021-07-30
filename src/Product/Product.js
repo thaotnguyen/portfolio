@@ -23,7 +23,6 @@ export const Product = () => {
         initial="hidden"
         animate="show"
       >
-        <motion.img variants={item} src="/illustration.png" />
         <motion.h1 variants={item}>Illustrations</motion.h1>
         <motion.p variants={item}>
           <motion.span>
@@ -73,7 +72,7 @@ export const Product = () => {
           Final sketch for Creative Studio's hero image. The intention was to
           instill a sense of teamwork in the act of creativity.
         </motion.p>
-        <motion.img src="/illustration7.png" />
+        <motion.img src="/illustration7.png" style={{ maxWidth: 500 }} />
         <motion.p>
           Iterations on artistic style. Being an internal product, there were
           many directions that I could go with color, level of detail, stroke,
@@ -100,13 +99,12 @@ export const Product = () => {
             style={{ maxWidth: window.innerWidth > 600 ? 150 : 50 }}
           />
         </motion.div>
-        <motion.p>
+        <motion.img src="/illustration9.png" style={{ maxWidth: 400 }} />
+        <motion.p style={{ margin: 32 }}>
           Various ideas for empty and 404 state for an internal app that allows
           users to take, upload, and manage screenshots easily. I wanted to make
           the experience not only refined but also fun and light feeling.
         </motion.p>
-        <motion.img src="/illustration9.png" style={{ maxWidth: 400 }} />
-        <motion.p>The final 404 illustration. People love animals.</motion.p>
         <motion.svg
           class="img"
           width="783"
@@ -292,12 +290,28 @@ export const Product = () => {
             </linearGradient>
           </defs>
         </motion.svg>
-        <motion.p>
+        <motion.p style={{ margin: 32 }}>
           Final 404 illustration for an app that had a visual space motif. I
           wanted to convey a sense of fun in the illustration, going with bright
           colors based on the app's main accent color which was orange.
         </motion.p>
-        <motion.img src="/illustration10.png" />
+        <motion.img
+          variants={item}
+          src="/illustration.png"
+          style={{ boxSizing: 'border-box', padding: 32, background: 'white' }}
+        />
+        <motion.img
+          variants={item}
+          src="/illustration11.png"
+          style={{
+            boxSizing: 'border-box',
+            padding: 32,
+            background: 'white',
+            maxWidth: 500,
+            margin: 32,
+          }}
+        />
+        {/* <motion.img src="/illustration10.png" /> */}
         <br />
         <br />
         <br />

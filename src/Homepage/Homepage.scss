@@ -65,7 +65,7 @@ section.route-section {
   align-items: center;
   flex-direction: column;
   color: #e0cfc2;
-  font-family: 'Space Grotesk', 'DM Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Cabinet Grotesk', 'DM Sans', Arial, Helvetica, sans-serif;
 
   &:after {
     content: '';
@@ -116,13 +116,13 @@ section.route-section {
 .chevron {
   position: fixed;
   left: 50%;
-  transform: translateX(-50%) rotate(90deg);
-  bottom: 16px;
-  font-size: 48px;
+  transform: translateX(-50%);
+  bottom: 32px;
+  font-size: 18px;
   color: rgba(224, 207, 194, 50);
   font-weight: 100;
   opacity: 0;
-  transition: opacity 0.3s ease-out;
+  transition: opacity 0.5s ease-out 0.2s;
 }
 
 .blurb {
@@ -182,6 +182,9 @@ section.route-section {
     max-width: 400px;
     padding: 32px;
     z-index: 2;
+    color: white;
+    // background: white;
+    // box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 
     h1 {
       margin: 0 0 0 -2px;
@@ -189,20 +192,21 @@ section.route-section {
 
     h4 {
       font-weight: 500;
-      font-size: 21px;
+      font-size: 16px;
       margin: 0;
+      opacity: 0.5;
     }
 
     h5 {
       text-transform: uppercase;
-      font-size: 12px;
+      font-size: 0px;
       font-weight: 800;
       margin-bottom: -8px;
       letter-spacing: 1px;
     }
 
     h6 {
-      font-size: 14px;
+      font-size: 10px;
       font-weight: 500;
       margin: -8px 0 16px 0;
     }
