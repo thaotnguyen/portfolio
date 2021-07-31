@@ -166,10 +166,7 @@ const Container = ({ location }) => {
           </div>
           <img src="/modal-thumbnail.png" alt="Modal" />
         </div>
-        <div
-          className="project"
-          onClick={() => window.open('/lgbtq.pdf', '_blank')}
-        >
+        <div className="project" onClick={() => history.push('/lgbt')}>
           <div className="project-content">
             <h5 style={{ marginBottom: 8 }}>Mini-sample</h5>
             <h1 style={{ marginBottom: 16, lineHeight: '1em' }}>

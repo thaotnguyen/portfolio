@@ -7,6 +7,7 @@ import Homepage from '../Homepage';
 import Recall from '../Recall';
 import Fabric from '../Fabric';
 import Product from '../Product';
+import LGBT from '../LGBT';
 
 import './Body.scss';
 
@@ -23,7 +24,7 @@ export const container = {
 };
 
 export const item = {
-  hidden: { opacity: 0, position: 'relative', top: 40 },
+  hidden: { opacity: 0, position: 'relative', y: '100%' },
   show: {
     opacity: 1,
     position: 'relative',
@@ -31,7 +32,7 @@ export const item = {
       duration: 0.8,
       ease: [0.33, 1, 0.68, 1],
     },
-    top: 0,
+    y: '0%',
   },
 };
 
@@ -68,6 +69,7 @@ function Body() {
         <Route path="/recall" component={Recall} />
         <Route path="/fabric" component={Fabric} />
         <Route path="/product" component={Product} />
+        <Route path="/lgbt" component={LGBT} />
       </Switch>
     </AnimatePresence>
   );
