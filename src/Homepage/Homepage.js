@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import classnames from 'classnames/bind';
 import { withRouter, useHistory } from 'react-router-dom';
 import { motion, useViewportScroll } from 'framer-motion';
@@ -17,6 +17,13 @@ const Container = ({ location }) => {
     setFadeArrow(true);
   };
 
+  const [endCoordinates, _] = useState(
+    Array.from({ length: 30 }, () => [
+      Math.floor(Math.random() * 0 - 0),
+      Math.floor(Math.random() * 400 - 200),
+    ])
+  );
+
   useEffect(() => {
     setFadeArrow(false);
     setLoaded(true);
@@ -25,10 +32,9 @@ const Container = ({ location }) => {
     return () => {};
   }, []);
 
-  const windowHeight = 2 * window.innerHeight;
+  const windowHeight = window.innerHeight;
 
   const colorMap = [
-    '#191819',
     '#191819',
     '#191819',
     '#191819',
@@ -58,25 +64,240 @@ const Container = ({ location }) => {
         <div
           className="body"
           style={{
-            opacity:
-              scroll > windowHeight ? 1 - (scroll - windowHeight) / 1000 : 1,
+            opacity: 1 - scroll / 1500,
             height: windowHeight + 1000,
             pointerEvents: scroll > window.innerHeight ? 'none' : 'auto',
           }}
         >
           <div className={classnames('title', 'container')}>
             <div className="landing">
-              <div
-                className="header right"
-                style={{ right: scroll / 2, opacity: loaded ? 1 : 0 }}
-              >
-                <h1>thao nguyen</h1>
+              <div className="header right" style={{ opacity: loaded ? 1 : 0 }}>
+                <h1>
+                  <span
+                    style={{
+                      right: endCoordinates[0][0] * (scroll / 1500),
+                      top: endCoordinates[0][1] * (scroll / 1500),
+                    }}
+                  >
+                    t
+                  </span>
+                  <span
+                    style={{
+                      right: endCoordinates[1][0] * (scroll / 1500),
+                      top: endCoordinates[1][1] * (scroll / 1500),
+                    }}
+                  >
+                    h
+                  </span>
+                  <span
+                    style={{
+                      right: endCoordinates[2][0] * (scroll / 1500),
+                      top: endCoordinates[2][1] * (scroll / 1500),
+                    }}
+                  >
+                    a
+                  </span>
+                  <span
+                    style={{
+                      right: endCoordinates[3][0] * (scroll / 1500),
+                      top: endCoordinates[3][1] * (scroll / 1500),
+                    }}
+                  >
+                    o
+                  </span>
+                  <span> </span>
+                  <span
+                    style={{
+                      right: endCoordinates[4][0] * (scroll / 1500),
+                      top: endCoordinates[4][1] * (scroll / 1500),
+                    }}
+                  >
+                    n
+                  </span>
+                  <span
+                    style={{
+                      right: endCoordinates[4][0] * (scroll / 1500),
+                      top: endCoordinates[4][1] * (scroll / 1500),
+                    }}
+                  >
+                    g
+                  </span>
+                  <span
+                    style={{
+                      right: endCoordinates[5][0] * (scroll / 1500),
+                      top: endCoordinates[5][1] * (scroll / 1500),
+                    }}
+                  >
+                    u
+                  </span>
+                  <span
+                    style={{
+                      right: endCoordinates[6][0] * (scroll / 1500),
+                      top: endCoordinates[6][1] * (scroll / 1500),
+                    }}
+                  >
+                    y
+                  </span>
+                  <span
+                    style={{
+                      right: endCoordinates[7][0] * (scroll / 1500),
+                      top: endCoordinates[7][1] * (scroll / 1500),
+                    }}
+                  >
+                    e
+                  </span>
+                  <span
+                    style={{
+                      right: endCoordinates[8][0] * (scroll / 1500),
+                      top: endCoordinates[8][1] * (scroll / 1500),
+                    }}
+                  >
+                    n
+                  </span>
+                </h1>
               </div>
-              <div
-                className="header left"
-                style={{ left: scroll / 2, opacity: loaded ? 1 : 0 }}
-              >
-                <h1>{window.outerWidth > 600 ? 'visual & ux' : ''} designer</h1>
+              <div className="header left" style={{ opacity: loaded ? 1 : 0 }}>
+                <h1>
+                  <span
+                    style={{
+                      right: endCoordinates[9][0] * (scroll / 1500),
+                      top: endCoordinates[9][1] * (scroll / 1500),
+                    }}
+                  >
+                    v
+                  </span>
+                  <span
+                    style={{
+                      right: endCoordinates[10][0] * (scroll / 1500),
+                      top: endCoordinates[10][1] * (scroll / 1500),
+                    }}
+                  >
+                    i
+                  </span>
+                  <span
+                    style={{
+                      right: endCoordinates[11][0] * (scroll / 1500),
+                      top: endCoordinates[11][1] * (scroll / 1500),
+                    }}
+                  >
+                    s
+                  </span>
+                  <span
+                    style={{
+                      right: endCoordinates[12][0] * (scroll / 1500),
+                      top: endCoordinates[12][1] * (scroll / 1500),
+                    }}
+                  >
+                    u
+                  </span>
+                  <span
+                    style={{
+                      right: endCoordinates[13][0] * (scroll / 1500),
+                      top: endCoordinates[13][1] * (scroll / 1500),
+                    }}
+                  >
+                    a
+                  </span>
+                  <span
+                    style={{
+                      right: endCoordinates[14][0] * (scroll / 1500),
+                      top: endCoordinates[14][1] * (scroll / 1500),
+                    }}
+                  >
+                    l
+                  </span>
+                  <span> </span>
+                  <span
+                    style={{
+                      right: endCoordinates[15][0] * (scroll / 1500),
+                      top: endCoordinates[15][1] * (scroll / 1500),
+                    }}
+                  >
+                    &amp;
+                  </span>
+                  <span> </span>
+                  <span
+                    style={{
+                      right: endCoordinates[16][0] * (scroll / 1500),
+                      top: endCoordinates[16][1] * (scroll / 1500),
+                    }}
+                  >
+                    u
+                  </span>
+                  <span
+                    style={{
+                      right: endCoordinates[17][0] * (scroll / 1500),
+                      top: endCoordinates[17][1] * (scroll / 1500),
+                    }}
+                  >
+                    x
+                  </span>
+                  <span> </span>
+                  <span
+                    style={{
+                      right: endCoordinates[18][0] * (scroll / 1500),
+                      top: endCoordinates[18][1] * (scroll / 1500),
+                    }}
+                  >
+                    d
+                  </span>
+                  <span
+                    style={{
+                      right: endCoordinates[19][0] * (scroll / 1500),
+                      top: endCoordinates[19][1] * (scroll / 1500),
+                    }}
+                  >
+                    e
+                  </span>
+                  <span
+                    style={{
+                      right: endCoordinates[20][0] * (scroll / 1500),
+                      top: endCoordinates[20][1] * (scroll / 1500),
+                    }}
+                  >
+                    s
+                  </span>
+                  <span
+                    style={{
+                      right: endCoordinates[21][0] * (scroll / 1500),
+                      top: endCoordinates[21][1] * (scroll / 1500),
+                    }}
+                  >
+                    i
+                  </span>
+                  <span
+                    style={{
+                      right: endCoordinates[22][0] * (scroll / 1500),
+                      top: endCoordinates[22][1] * (scroll / 1500),
+                    }}
+                  >
+                    g
+                  </span>
+                  <span
+                    style={{
+                      right: endCoordinates[23][0] * (scroll / 1500),
+                      top: endCoordinates[23][1] * (scroll / 1500),
+                    }}
+                  >
+                    n
+                  </span>
+                  <span
+                    style={{
+                      right: endCoordinates[24][0] * (scroll / 1500),
+                      top: endCoordinates[24][1] * (scroll / 1500),
+                    }}
+                  >
+                    e
+                  </span>
+                  <span
+                    style={{
+                      right: endCoordinates[25][0] * (scroll / 1500),
+                      top: endCoordinates[25][1] * (scroll / 1500),
+                    }}
+                  >
+                    r
+                  </span>
+                </h1>
               </div>
             </div>
           </div>
