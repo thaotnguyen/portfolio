@@ -87,7 +87,7 @@ section.route-section {
     transition: opacity 1s ease-in-out;
 
     span {
-      position: relative;
+      display: inline-block;
     }
 
     // &.left:after,

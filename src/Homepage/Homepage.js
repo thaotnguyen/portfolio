@@ -18,10 +18,7 @@ const Container = ({ location }) => {
   };
 
   const [endCoordinates, _] = useState(
-    Array.from({ length: 30 }, () => [
-      Math.floor(Math.random() * 0 - 0),
-      Math.floor(Math.random() * 400 - 200),
-    ])
+    Array.from({ length: 30 }, () => Math.floor(Math.random() * 400 - 200))
   );
 
   useEffect(() => {
@@ -75,81 +72,91 @@ const Container = ({ location }) => {
                 <h1>
                   <span
                     style={{
-                      right: endCoordinates[0][0] * (scroll / 1500),
-                      top: endCoordinates[0][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[0] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     t
                   </span>
                   <span
                     style={{
-                      right: endCoordinates[1][0] * (scroll / 1500),
-                      top: endCoordinates[1][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[1] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     h
                   </span>
                   <span
                     style={{
-                      right: endCoordinates[2][0] * (scroll / 1500),
-                      top: endCoordinates[2][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[2] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     a
                   </span>
                   <span
                     style={{
-                      right: endCoordinates[3][0] * (scroll / 1500),
-                      top: endCoordinates[3][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[3] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     o
                   </span>
-                  <span> </span>
+                  <span>&nbsp;</span>
                   <span
                     style={{
-                      right: endCoordinates[4][0] * (scroll / 1500),
-                      top: endCoordinates[4][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[4] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     n
                   </span>
                   <span
                     style={{
-                      right: endCoordinates[4][0] * (scroll / 1500),
-                      top: endCoordinates[4][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[4] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     g
                   </span>
                   <span
                     style={{
-                      right: endCoordinates[5][0] * (scroll / 1500),
-                      top: endCoordinates[5][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[5] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     u
                   </span>
                   <span
                     style={{
-                      right: endCoordinates[6][0] * (scroll / 1500),
-                      top: endCoordinates[6][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[6] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     y
                   </span>
                   <span
                     style={{
-                      right: endCoordinates[7][0] * (scroll / 1500),
-                      top: endCoordinates[7][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[7] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     e
                   </span>
                   <span
                     style={{
-                      right: endCoordinates[8][0] * (scroll / 1500),
-                      top: endCoordinates[8][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[8] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     n
@@ -160,139 +167,156 @@ const Container = ({ location }) => {
                 <h1>
                   <span
                     style={{
-                      right: endCoordinates[9][0] * (scroll / 1500),
-                      top: endCoordinates[9][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[9] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     v
                   </span>
                   <span
                     style={{
-                      right: endCoordinates[10][0] * (scroll / 1500),
-                      top: endCoordinates[10][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[10] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     i
                   </span>
                   <span
                     style={{
-                      right: endCoordinates[11][0] * (scroll / 1500),
-                      top: endCoordinates[11][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[11] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     s
                   </span>
                   <span
                     style={{
-                      right: endCoordinates[12][0] * (scroll / 1500),
-                      top: endCoordinates[12][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[12] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     u
                   </span>
                   <span
                     style={{
-                      right: endCoordinates[13][0] * (scroll / 1500),
-                      top: endCoordinates[13][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[13] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     a
                   </span>
                   <span
                     style={{
-                      right: endCoordinates[14][0] * (scroll / 1500),
-                      top: endCoordinates[14][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[14] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     l
                   </span>
-                  <span> </span>
+                  <span>&nbsp;</span>
                   <span
                     style={{
-                      right: endCoordinates[15][0] * (scroll / 1500),
-                      top: endCoordinates[15][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[15] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     &amp;
                   </span>
-                  <span> </span>
+                  <span>&nbsp;</span>
                   <span
                     style={{
-                      right: endCoordinates[16][0] * (scroll / 1500),
-                      top: endCoordinates[16][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[16] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     u
                   </span>
                   <span
                     style={{
-                      right: endCoordinates[17][0] * (scroll / 1500),
-                      top: endCoordinates[17][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[17] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     x
                   </span>
-                  <span> </span>
+                  <span>&nbsp;</span>
                   <span
                     style={{
-                      right: endCoordinates[18][0] * (scroll / 1500),
-                      top: endCoordinates[18][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[18] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     d
                   </span>
                   <span
                     style={{
-                      right: endCoordinates[19][0] * (scroll / 1500),
-                      top: endCoordinates[19][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[19] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     e
                   </span>
                   <span
                     style={{
-                      right: endCoordinates[20][0] * (scroll / 1500),
-                      top: endCoordinates[20][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[20] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     s
                   </span>
                   <span
                     style={{
-                      right: endCoordinates[21][0] * (scroll / 1500),
-                      top: endCoordinates[21][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[21] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     i
                   </span>
                   <span
                     style={{
-                      right: endCoordinates[22][0] * (scroll / 1500),
-                      top: endCoordinates[22][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[22] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     g
                   </span>
                   <span
                     style={{
-                      right: endCoordinates[23][0] * (scroll / 1500),
-                      top: endCoordinates[23][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[23][1] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     n
                   </span>
                   <span
                     style={{
-                      right: endCoordinates[24][0] * (scroll / 1500),
-                      top: endCoordinates[24][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[24] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     e
                   </span>
                   <span
                     style={{
-                      right: endCoordinates[25][0] * (scroll / 1500),
-                      top: endCoordinates[25][1] * (scroll / 1500),
+                      transform: `translateY(${
+                        endCoordinates[25] * (scroll / 1500)
+                      }px)`,
                     }}
                   >
                     r
