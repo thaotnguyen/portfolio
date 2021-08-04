@@ -35,8 +35,8 @@ const Container = ({ location }) => {
     '#191819',
     '#191819',
     '#191819',
-    '#320846',
     '#112150',
+    '#320846',
     '#420202',
     '#662937',
     '#0e2f10',
@@ -347,6 +347,28 @@ const Container = ({ location }) => {
         </div>
         <div
           className="project"
+          // onClick={() => history.push('/fabric')}
+          onClick={() => window.open('/fabric.pdf', '_blank')}
+        >
+          <div className="project-content">
+            <h5>Full case study</h5>
+            <h1>Fabric UX</h1>
+            <h6>
+              Brand identity &middot; Visual design &middot; Motion design
+            </h6>
+            <h4>
+              A complete brand identity for an ads team at Google, built to
+              bring together what was three teams under one new identity.
+            </h4>
+          </div>
+          <img
+            src="/fabric-thumbnail.png"
+            alt="Fabric UX"
+            className="fabric-hero"
+          />
+        </div>
+        <div
+          className="project"
           // onClick={() => history.push('/recall')}
           style={{ color: '#191819' }}
           layoutId="recall"
@@ -370,28 +392,7 @@ const Container = ({ location }) => {
             alt="Recall"
           />
         </div>
-        <div
-          className="project"
-          // onClick={() => history.push('/fabric')}
-          onClick={() => window.open('/fabric.pdf', '_blank')}
-        >
-          <div className="project-content">
-            <h5>Full case study</h5>
-            <h1>Fabric UX</h1>
-            <h6>
-              Brand identity &middot; Visual design &middot; Motion design
-            </h6>
-            <h4>
-              A complete brand identity for an ads team at Google, built to
-              bring together what was three teams under one new identity.
-            </h4>
-          </div>
-          <img
-            src="/fabric-thumbnail.png"
-            alt="Fabric UX"
-            className="fabric-hero"
-          />
-        </div>
+
         <div
           className="project"
           // onClick={() => history.push('/fabric')}
