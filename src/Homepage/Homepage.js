@@ -337,8 +337,8 @@ const Container = ({ location }) => {
           </p>
           <p>
             I'm a quick learner who loves impactful, empathetic user-facing work
-            and is interested in helping underserved communities to amplify
-            their voices.
+            and is interested in helping underserved communities amplify their
+            voices.
           </p>
           <p>
             I work in UI/UX design, illustrations, branding &amp; identity

@@ -65,7 +65,9 @@ section.route-section {
   align-items: center;
   flex-direction: column;
   color: #e0cfc2;
-  font-family: 'Cabinet Grotesk', 'DM Sans', Arial, Helvetica, sans-serif;
+  font-variation-settings: 'wght' 400;
+  letter-spacing: -3px;
+  font-family: 'Clash Display', 'DM Sans', Arial, Helvetica, sans-serif;
 
   &:after {
     content: '';
@@ -191,11 +193,11 @@ section.route-section {
 
     h1 {
       margin: 0 0 0 -2px;
-      font-weight: 400;
+      font-weight: 500;
     }
 
     h4 {
-      font-weight: 500;
+      font-variation-settings: 'wght' 500;
       font-size: 16px;
       margin: 0;
       opacity: 0.5;
@@ -204,13 +206,14 @@ section.route-section {
     h5 {
       text-transform: uppercase;
       font-size: 0px;
-      font-weight: 800;
+      font-variation-settings: 'wght' 800;
       margin-bottom: -8px;
       letter-spacing: 1px;
     }
 
     h6 {
       font-size: 10px;
+      font-variation-settings: 'wght' 500;
       font-weight: 500;
       margin: -8px 0 16px 0;
     }
