@@ -69,6 +69,10 @@ section.route-section {
   letter-spacing: -3px;
   font-family: 'Clash Display', 'DM Sans', Arial, Helvetica, sans-serif;
 
+  @media screen and (max-width: 600px) {
+    letter-spacing: 0;
+  }
+
   &:after {
     content: '';
     position: fixed;
