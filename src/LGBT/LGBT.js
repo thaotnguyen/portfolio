@@ -70,7 +70,6 @@ export const LGBT = () => {
         LGBT asylum seekers who are fleeing persecution due to their sexual
         orientation, gender identity and/or HIV status.
       </FadeInView>
-      <FadeInView component={motion.img} variants={item} src="/lgbt13.png" />
       <FadeInView
         component={motion.h2}
         variants={item}

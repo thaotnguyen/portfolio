@@ -36,8 +36,8 @@ const Container = ({ location }) => {
     '#191819',
     '#191819',
     '#112150',
-    '#320846',
     '#420202',
+    '#320846',
     '#662937',
     '#0e2f10',
     '#191819',
@@ -348,16 +348,13 @@ const Container = ({ location }) => {
         <div
           className="project"
           // onClick={() => history.push('/fabric')}
-          onClick={() => window.open('/fabric.pdf', '_blank')}
+          onClick={() => history.push('/fabric')}
         >
           <div className="project-content">
             <h5>Full case study</h5>
             <h1>Fabric UX</h1>
-            <h6>
-              Brand identity &middot; Visual design &middot; Motion design
-            </h6>
             <h4>
-              A complete brand identity for an ads team at Google, built to
+              <span>Brand identity</span> for an ads team at Google, built to
               bring together what was three teams under one new identity.
             </h4>
           </div>
@@ -369,21 +366,34 @@ const Container = ({ location }) => {
         </div>
         <div
           className="project"
+          // onClick={() => history.push('/fabric')}
+          onClick={() => history.push('/modal')}
+        >
+          <div className="project-content">
+            <h5>Full case study</h5>
+            <h1>Modal</h1>
+            <h4>
+              <span>Brand identity</span> for a fashion-centric social media app
+              where users can learn from others, share their outfits and
+              knowledge, and expand their fashion experience.
+            </h4>
+          </div>
+          <img src="/modal-thumbnail.png" alt="Modal" />
+        </div>
+        <div
+          className="project"
           // onClick={() => history.push('/recall')}
           style={{ color: '#191819' }}
           layoutId="recall"
-          onClick={() => window.open('/recall.pdf', '_blank')}
+          onClick={() => history.push('/recall')}
         >
           <div className="project-content">
             <h5>Full case study</h5>
             <h1>Recall</h1>
-            <h6>
-              UX design &middot; UX research &middot; Illustration &middot;
-              Development
-            </h6>
             <h4>
-              A video platform at Google that enables UX researchers to record,
-              upload, analyze, and share videos of their user studies.
+              <span>Product design</span> for a video platform at Google that
+              enables UX researchers to record, upload, analyze, and share
+              videos of their user studies.
             </h4>
           </div>
           <img
@@ -392,37 +402,16 @@ const Container = ({ location }) => {
             alt="Recall"
           />
         </div>
-
-        <div
-          className="project"
-          // onClick={() => history.push('/fabric')}
-          onClick={() => window.open('/modal.pdf', '_blank')}
-        >
-          <div className="project-content">
-            <h5>Full case study</h5>
-            <h1>Modal</h1>
-            <h6>
-              Brand identity &middot; Visual design &middot; Motion design
-            </h6>
-            <h4>
-              A fashion-centric social media app where users can learn from
-              others, share their outfits and knowledge, and expand their
-              fashion experience.
-            </h4>
-          </div>
-          <img src="/modal-thumbnail.png" alt="Modal" />
-        </div>
         <div className="project" onClick={() => history.push('/lgbt')}>
           <div className="project-content">
             <h5 style={{ marginBottom: 8 }}>Mini-sample</h5>
             <h1 style={{ marginBottom: 16, lineHeight: '1em' }}>
               LGBT Asylum Project
             </h1>
-            <h6>Brand identity &middot; Visual design &middot; Illustration</h6>
             <h4>
-              The 2020 annual report for the LGBT Asylum Project, a nonprofit
-              legal organization helping LGBTQ individuals facing persecution
-              abroad.
+              <span>Visual design</span> for the 2020 annual report for the LGBT
+              Asylum Project, a nonprofit legal organization helping LGBTQ
+              individuals facing persecution abroad.
             </h4>
           </div>
           <img src="/lgbtq-hero.png" alt="LGBT Asylum Project" />
@@ -431,10 +420,9 @@ const Container = ({ location }) => {
           <div className="project-content">
             <h5>Mini-sample</h5>
             <h1>Illustrations</h1>
-            <h6>Illustration</h6>
             <h4>
-              Assorted illustrations and animations for internal Google
-              products.
+              Assorted <span>illustrations</span> and animations for internal
+              Google products.
             </h4>
           </div>
           <img

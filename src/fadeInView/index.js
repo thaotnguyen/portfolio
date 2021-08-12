@@ -18,8 +18,9 @@ export const FadeInView = (props) => {
       style={{
         overflow: 'hidden',
         display: 'flex',
-        justifyContent: 'center',
         alignItems: 'center',
+        width: '100%',
+        justifyContent: 'flex-start',
         ...divStyle,
       }}
     >
