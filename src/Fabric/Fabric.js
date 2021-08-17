@@ -99,42 +99,46 @@ export const Fabric = () => {
           versatile nature of the team and their adaptability towards the
           ever-changing problems that they solve.
         </FadeInView>
-        <FadeInView component={motion.img} src="/fabric-mocks.png" />
-        <FadeInView component={motion.h1}>A versatile brand</FadeInView>
+        <FadeInView
+          component={motion.img}
+          src="/fabric-mocks.png"
+          divStyle={{ marginBottom: 64 }}
+        />
+        {/* <FadeInView component={motion.h1}>A versatile brand</FadeInView>
         <FadeInView component={motion.p}>
           The brand can be extended to all kinds of media easily, from physical
           to digital to print.
-        </FadeInView>
-        <FadeInView component={motion.img} src="/fabric-slide.png" />
-        <FadeInView component={motion.h1}>A digital brand</FadeInView>
-        <FadeInView component={motion.p}>
-          A slide from the deck template for the brand. The brand can exist not
-          only physically but also digitally, where the patterns can be utilized
-          in a number of different ways.
-        </FadeInView>
+        </FadeInView> */}
+        <FadeInView
+          component={motion.img}
+          src="/fabric-slide.png"
+          divStyle={{ marginBottom: 64 }}
+        />
         <FadeInView
           component={motion.img}
           src="/fabric-illos.gif"
-          divStyle={{ background: 'white' }}
+          divStyle={{ background: 'white', marginBottom: 64 }}
         />
-        <FadeInView component={motion.h1}>In-house illustrations</FadeInView>
+        <FadeInView component={motion.img} src="/fabric-billboard.gif" />
+        <FadeInView component={motion.h1}>A united brand</FadeInView>
         <FadeInView component={motion.p}>
-          I created illustrations for the brand, and combined those with Google
-          Ads illustrations and the Fabric brand here.
+          Fabric represents the idea that pieces can unite together to become
+          something more than the sum of its parts.
+          <br />
+          <br />
+          The brand can exist not only physically but also digitally, where the
+          patterns can be utilized in a number of different ways, being a
+          container for a pattern, a knockout for the pattern, or even broken
+          apart into individual shapes.
         </FadeInView>
-        <FadeInView component={motion.img} src="/fabric-early-animation.gif" />
-        <FadeInView component={motion.h1}>A united brand identity</FadeInView>
-        <FadeInView component={motion.p}>
-          Fabric represents the idea that pieces can weave and unite together to
-          become something more than the sum of its parts.
-        </FadeInView>
-        <FadeInView component={motion.img} src="/fabric.gif" />
-        <FadeInView component={motion.h1}>A brand that lives</FadeInView>
+        {/* <FadeInView component={motion.img} src="/fabric-early-animation.gif" /> */}
+        {/* <FadeInView component={motion.h1}>A united brand identity</FadeInView> */}
+        {/* <FadeInView component={motion.h1}>A brand that lives</FadeInView>
         <FadeInView component={motion.p}>
           I also created animations for the brand, illustrating the organic and
           living nature of the brand and team.
-        </FadeInView>
-        <FadeInView
+        </FadeInView> */}
+        {/* <FadeInView
           component={motion.img}
           src="/fabric-colors.png"
           divStyle={{
@@ -152,7 +156,8 @@ export const Fabric = () => {
             padding: 64,
             boxSizing: 'border-box',
           }}
-        />
+        /> */}
+        <FadeInView component={motion.img} src="/fabric-system.png" />
         <FadeInView component={motion.h1}>
           Brand system and guidelines
         </FadeInView>

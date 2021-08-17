@@ -70,9 +70,11 @@ export const Fabric = () => {
         <FadeInView component={motion.img} src="/modal-logo.png" />
         <FadeInView component={motion.h1}>Human-centered logo</FadeInView>
         <FadeInView component={motion.p}>
-          The logo has bold lines and colors, giving it a unique flair compared
-          to other social media app logos. The red shape is a common thread
-          through visual patterns in the brand, and morphs to represent human
+          The red was chosen to evoke the sophistication of fashion media such
+          as Vogue and Vanity Fair, balanced out by the humanist font. <br />
+          <br />
+          The red shape, representing a person's head, is a common thread
+          through visual patterns in the brand and morphs to represent human
           features.
         </FadeInView>
         <FadeInView component={motion.img} src="/modal-faces.png" />

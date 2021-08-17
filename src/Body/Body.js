@@ -71,6 +71,7 @@ function Body() {
       <div className="nav">
         <span></span>
         <div>
+          <a href="/">home</a>
           <a href="/resume.pdf" target="_blank">
             resume
           </a>
