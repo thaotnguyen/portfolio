@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useAnimation } from 'framer-motion';
+import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { item } from '../Body/Body';
 
@@ -20,16 +20,38 @@ export const FadeInView = (props) => {
         display: 'flex',
         alignItems: 'center',
         width: '100%',
-        justifyContent: 'flex-start',
+        alignItems: 'flex-start',
+        position: 'relative',
+        flexDirection: 'column',
         ...divStyle,
       }}
     >
       <Component
-        variants={item}
-        animate={controls}
-        initial="hidden"
+        // variants={item}
+        // animate={controls}
+        // initial="hidden"
         {...otherProps}
       />
+      <div
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+        }}
+      >
+        <motion.div
+          variants={item}
+          animate={controls}
+          initial="hidden"
+          style={{
+            background: '#191819',
+            width: '100%',
+            height: '100%',
+          }}
+        />
+      </div>
     </div>
   );
 };

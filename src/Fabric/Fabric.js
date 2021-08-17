@@ -33,17 +33,12 @@ export const Fabric = () => {
         >
           Fabric UX
         </FadeInView>
-        <FadeInView
-          component={motion.h2}
-          variants={item}
-          style={{ fontSize: 32 }}
-        >
+        <FadeInView component={motion.h2} style={{ fontSize: 32 }}>
           A complete brand identity for an internal team within Google Ads, and
           my core project as a visual designer at Google.
         </FadeInView>
         <FadeInView
           component={motion.h2}
-          variants={item}
           style={{ fontSize: 18 }}
           divStyle={{
             marginBottom: 64,
@@ -55,15 +50,9 @@ export const Fabric = () => {
           </a>
           .
         </FadeInView>
-        <FadeInView
-          component={motion.img}
-          variants={item}
-          src="/fabric_1.png"
-        />
-        <FadeInView component={motion.h1} variants={item}>
-          At a glance
-        </FadeInView>
-        <FadeInView component={motion.p} variants={item}>
+        <FadeInView component={motion.img} src="/fabric_1.png" />
+        <FadeInView component={motion.h1}>At a glance</FadeInView>
+        <FadeInView component={motion.p}>
           3 teams under Google Ads were merging together, and it was my task to
           create a new brand identity that they could unite under. I worked
           alongside an award-winning visual designer,{' '}
@@ -76,67 +65,49 @@ export const Fabric = () => {
           </a>
           , as my mentor for this project.
         </FadeInView>
-        <FadeInView
-          component={motion.img}
-          variants={item}
-          src="/workshop.gif"
-        />
-        <FadeInView component={motion.h1} variants={item}>
+        <FadeInView component={motion.img} src="/workshop.gif" />
+        <FadeInView component={motion.h1}>
           Crafting a visual identity
         </FadeInView>
-        <FadeInView component={motion.p} variants={item}>
+        <FadeInView component={motion.p}>
           I used initial surveys to put together a new mission and purpose from
           which a brand could emerge under. I also led design sprints to work on
           a new name and a mood board for the new brand, which happened entirely
           remotely.
         </FadeInView>
         <FadeInView component={motion.img} src="/fabric-mood.png" />
-        <FadeInView component={motion.h1} variants={item}>
-          The team's vision
-        </FadeInView>
-        <FadeInView component={motion.p} variants={item}>
+        <FadeInView component={motion.h1}>The team's vision</FadeInView>
+        <FadeInView component={motion.p}>
           The team saw themselves as being very human and personable and
           friendly, while also being very polished and professional and existing
           within a complex problem space. I also found that they gravitated
           towards complex patterns and a mix of organic and inorganic lines, as
           well as imagery that could be utilized in a number of ways.
         </FadeInView>
-        <FadeInView
-          component={motion.img}
-          variants={item}
-          src="/fabric-logo.png"
-        />
-        <FadeInView component={motion.h1} variants={item}>
-          A brand woven together
-        </FadeInView>
-        <FadeInView component={motion.p} variants={item}>
+        <FadeInView component={motion.img} src="/fabric-logo.png" />
+        <FadeInView component={motion.h1}>A brand woven together</FadeInView>
+        <FadeInView component={motion.p}>
           The logo reflects singular forms with their own unique qualities that
           create greater meaning when united, reflecting the team’s
           multi-disciplinary composition and work across many surfaces.
         </FadeInView>
         <FadeInView component={motion.img} src="/fabric3.png" />
-        <FadeInView component={motion.h1} variants={item}>
-          A brand that adapts
-        </FadeInView>
-        <FadeInView component={motion.p} variants={item}>
+        <FadeInView component={motion.h1}>A brand that adapts</FadeInView>
+        <FadeInView component={motion.p}>
           The final logo is flexible and can be used as a knockout or as a
           container to hold an extremely wide variety of patterns, fitting the
           versatile nature of the team and their adaptability towards the
           ever-changing problems that they solve.
         </FadeInView>
         <FadeInView component={motion.img} src="/fabric-mocks.png" />
-        <FadeInView component={motion.h1} variants={item}>
-          A versatile brand
-        </FadeInView>
-        <FadeInView component={motion.p} variants={item}>
+        <FadeInView component={motion.h1}>A versatile brand</FadeInView>
+        <FadeInView component={motion.p}>
           The brand can be extended to all kinds of media easily, from physical
           to digital to print.
         </FadeInView>
         <FadeInView component={motion.img} src="/fabric-slide.png" />
-        <FadeInView component={motion.h1} variants={item}>
-          A digital brand
-        </FadeInView>
-        <FadeInView component={motion.p} variants={item}>
+        <FadeInView component={motion.h1}>A digital brand</FadeInView>
+        <FadeInView component={motion.p}>
           A slide from the deck template for the brand. The brand can exist not
           only physically but also digitally, where the patterns can be utilized
           in a number of different ways.
@@ -146,26 +117,20 @@ export const Fabric = () => {
           src="/fabric-illos.gif"
           divStyle={{ background: 'white' }}
         />
-        <FadeInView component={motion.h1} variants={item}>
-          In-house illustrations
-        </FadeInView>
-        <FadeInView component={motion.p} variants={item}>
+        <FadeInView component={motion.h1}>In-house illustrations</FadeInView>
+        <FadeInView component={motion.p}>
           I created illustrations for the brand, and combined those with Google
           Ads illustrations and the Fabric brand here.
         </FadeInView>
         <FadeInView component={motion.img} src="/fabric-early-animation.gif" />
-        <FadeInView component={motion.h1} variants={item}>
-          A united brand identity
-        </FadeInView>
-        <FadeInView component={motion.p} variants={item}>
+        <FadeInView component={motion.h1}>A united brand identity</FadeInView>
+        <FadeInView component={motion.p}>
           Fabric represents the idea that pieces can weave and unite together to
           become something more than the sum of its parts.
         </FadeInView>
         <FadeInView component={motion.img} src="/fabric.gif" />
-        <FadeInView component={motion.h1} variants={item}>
-          A brand that lives
-        </FadeInView>
-        <FadeInView component={motion.p} variants={item}>
+        <FadeInView component={motion.h1}>A brand that lives</FadeInView>
+        <FadeInView component={motion.p}>
           I also created animations for the brand, illustrating the organic and
           living nature of the brand and team.
         </FadeInView>
@@ -188,26 +153,20 @@ export const Fabric = () => {
             boxSizing: 'border-box',
           }}
         />
-        <FadeInView component={motion.h1} variants={item}>
+        <FadeInView component={motion.h1}>
           Brand system and guidelines
         </FadeInView>
-        <FadeInView component={motion.p} variants={item}>
+        <FadeInView component={motion.p}>
           Color and pattern guidelines, part of the Fabric brand system.
           Fabric's colors were carefully chosen to make sure that they could
           combine to create harmonious combinations.
         </FadeInView>
         <FadeInView component={motion.img} src="/fabric11.png" />
-        <FadeInView component={motion.h1} variants={item}>
-          The brand in real life
-        </FadeInView>
-        <FadeInView component={motion.p} variants={item}>
+        <FadeInView component={motion.h1}>The brand in real life</FadeInView>
+        <FadeInView component={motion.p}>
           Branded items from happy hour after the brand launch.
         </FadeInView>
-        <FadeInView
-          component={motion.h2}
-          variants={item}
-          style={{ fontSize: 18 }}
-        >
+        <FadeInView component={motion.h2} style={{ fontSize: 18 }}>
           See the complete process{' '}
           <a href="#" onClick={() => window.open('/fabric.pdf', '_blank')}>
             here

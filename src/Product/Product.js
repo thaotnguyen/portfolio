@@ -27,37 +27,31 @@ export const Product = () => {
     >
       <FadeInView
         component={motion.h1}
-        variants={item}
-        style={{ fontWeight: 400 }}
-        divStyle={{ maxWidth: 600, width: '100%' }}
+        style={{ fontSize: 72 }}
+        divStyle={{
+          width: '100%',
+        }}
       >
         Illustrations
       </FadeInView>
-      <FadeInView component={motion.p} variants={item} style={{ fontSize: 21 }}>
-        <FadeInView component={motion.span}>
-          A collection of various illustrations I've done for many internal
-          products across Google, some of which are used by the majority of
-          UXers at the company.
-        </FadeInView>
-      </FadeInView>
       <FadeInView
-        component={motion.img}
-        variants={item}
-        src="/illustration1.png"
-      />
-      <FadeInView component={motion.p} variants={item}>
+        component={motion.h2}
+        style={{ fontSize: 32, marginBottom: 64 }}
+      >
+        A collection of various illustrations I've done for many internal
+        products across Google, some of which are used by the majority of UXers
+        at the company.
+      </FadeInView>
+      <FadeInView component={motion.img} src="/illustration1.png" />
+      <FadeInView component={motion.p}>
         Initial sketches and ideas for illustrations for an app where users can
         annotate and inspect Figma/Sketch mocks for handoff to engineers. The
         main challenge was figuring out visual representations of the concepts
         of annotation and inspection, as well as communicating the idea of style
         guides via illustration.
       </FadeInView>
-      <FadeInView
-        component={motion.img}
-        variants={item}
-        src="/illustration2.png"
-      />
-      <FadeInView component={motion.p} variants={item}>
+      <FadeInView component={motion.img} src="/illustration2.png" />
+      <FadeInView component={motion.p}>
         Ideas for more elaborate illustrations for the same app's empty and 404
         pages. I wanted to convey the idea of a mistake without feeling overly
         punishing or negative to the user. Additionally, most users were
@@ -324,13 +318,11 @@ export const Product = () => {
       </FadeInView>
       <FadeInView
         component={motion.img}
-        variants={item}
         src="/illustration.png"
         style={{ boxSizing: 'border-box', padding: 32, background: 'white' }}
       />
       <FadeInView
         component={motion.img}
-        variants={item}
         src="/illustration11.png"
         style={{
           boxSizing: 'border-box',
