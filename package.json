@@ -27,7 +27,7 @@
     "test": "craco test",
     "eject": "craco eject",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build && git checkout gh-pages && git pull && rm -f 404.html && ln -s index.html 404.html && git add 404.html && git commit -m '404 symlink' && git push && git checkout -"
   },
   "eslintConfig": {
     "extends": "react-app"
