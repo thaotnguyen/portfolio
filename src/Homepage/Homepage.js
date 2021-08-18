@@ -38,6 +38,7 @@ const Container = ({ location }) => {
     '#420202',
     '#112150',
     '#320846',
+    '#541b1b',
     '#191819',
     '#191819',
   ];
@@ -470,6 +471,24 @@ const Container = ({ location }) => {
             src="/recall-thumbnail.png"
             alt="Recall"
           />
+        </div>
+        <div
+          className="project"
+          // onClick={() => history.push('/fabric')}
+          onClick={() => history.push('/lgbt')}
+        >
+          <div className="project-content">
+            <h5>Full case study</h5>
+            <h1 style={{ lineHeight: 1.1, marginBottom: 16 }}>
+              LGBT Asylum Project
+            </h1>
+            <h4>
+              <span>Visual design</span> for the 2020 annual report for the LGBT
+              Asylum Project, a nonprofit that provides legal assistance to
+              LGBTQ+ people who are facing persecution.
+            </h4>
+          </div>
+          <img src="/lgbtq-hero.png" alt="LGBT Asylum Project" />
         </div>
         <div className="project" onClick={() => history.push('/archive')}>
           <div className="project-content">

@@ -66,6 +66,10 @@ export const Fabric = () => {
           accessible, human-centric, and stylish. Modal shouldn't feel like
           other social media apps, it should have a special flair to it that
           also feels personable.
+          <br />
+          <br />
+          The name Modal comes from a modern textile that is often woven into
+          other fabrics to make the end result softer and more eco-conscious.
         </FadeInView>
         <FadeInView component={motion.img} src="/modal-logo.png" />
         <FadeInView component={motion.h1}>Human-centered logo</FadeInView>
@@ -73,9 +77,9 @@ export const Fabric = () => {
           The red was chosen to evoke the sophistication of fashion media such
           as Vogue and Vanity Fair, balanced out by the humanist font. <br />
           <br />
-          The red shape, representing a person's head, is a common thread
-          through visual patterns in the brand and morphs to represent human
-          features.
+          The red shape, inspired by the shape of dropping a piece of fabric
+          onto a ball, is a common thread through visual patterns in the brand
+          and morphs to represent human features.
         </FadeInView>
         <FadeInView component={motion.img} src="/modal-faces.png" />
         <FadeInView component={motion.h1}>A brand that feels human</FadeInView>
@@ -105,7 +109,7 @@ export const Fabric = () => {
           will stand out on anyone's phone screen.
         </FadeInView>
         <FadeInView component={motion.img} src="/modal-system.png" />
-        <FadeInView component={motion.h1}>The brand system and a11y</FadeInView>
+        <FadeInView component={motion.h1}>The brand system</FadeInView>
         <FadeInView component={motion.p}>
           A comprehensive brand system for future designers on the Modal team.
           Special consideration was taken to include a light version of the
@@ -120,6 +124,23 @@ export const Fabric = () => {
           through style while also differentiating Modal from other social media
           apps.
         </FadeInView>
+        <FadeInView component={motion.img} src="/modal-app.png" />
+        <FadeInView component={motion.h1}>Immersive screens</FadeInView>
+        <FadeInView component={motion.p}>
+          Major priorities for the UX design of Modal was to maximize user
+          engagement and to capitalize on the fact that fashion revenue is
+          increasingly moving online.
+          <br />
+          <br />I decided to take a different approach to profile pages and
+          posts, opting for a full screen presentation for both. Full screen
+          images often get users spending more time per post and also often get
+          users to begin scrolling.
+        </FadeInView>
+        <FadeInView
+          component={motion.img}
+          src="/modal-end.png"
+          divStyle={{ marginBottom: 64 }}
+        />
         <FadeInView
           component={motion.h2}
           style={{ fontSize: 18 }}
