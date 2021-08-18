@@ -38,9 +38,9 @@ export const LGBT = () => {
         component={motion.h2}
         style={{ fontSize: 32, marginBottom: 64 }}
       >
-        The 2020 annual report for the LGBT Asylum Project, a nonprofit legal
-        organization that helps persecuted LGBTQ+ people abroad get protection
-        in the US.
+        An expanded brand identity and the 2020 annual report for the LGBT
+        Asylum Project, a nonprofit legal organization that helps persecuted
+        LGBTQ+ people abroad get protection in the US.
       </FadeInView>
 
       <FadeInView component={motion.img} src="/lgbt1.png" />
@@ -53,7 +53,8 @@ export const LGBT = () => {
       </FadeInView>
       <FadeInView component={motion.p} divStyle={{ marginTop: -64 }}>
         I was a volunteer visual designer creating the 2020 annual report in
-        order to get adequate funding and sponsorship for 2021.
+        order to get adequate funding and sponsorship for 2021. I also worked to
+        tighten up and expand their brand identity.
       </FadeInView>
       <FadeInView component={motion.img} src="/lgbt2.png" />
       <FadeInView component={motion.h1}>The team's mission</FadeInView>
