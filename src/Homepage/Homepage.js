@@ -39,7 +39,6 @@ const Container = ({ location }) => {
     '#112150',
     '#320846',
     '#191819',
-    '#191819',
   ];
 
   const backgroundColor = () => {
@@ -439,8 +438,8 @@ const Container = ({ location }) => {
             <h5>Full case study</h5>
             <h1>Fabric UX</h1>
             <h4>
-              <span>Brand identity</span> for an ads team at Google, built to
-              bring together what was three teams under one new identity.
+              <span>Brand identity</span> for a team within Google Ads. Built to
+              bring together three teams under one united identity.
             </h4>
           </div>
           <img
@@ -471,15 +470,6 @@ const Container = ({ location }) => {
             alt="Recall"
           />
         </div>
-        <div className="project" onClick={() => history.push('/archive')}>
-          <div className="project-content">
-            <h5 style={{ marginBottom: 8 }}>Mini-sample</h5>
-            <p style={{ color: '#dbbfb0' }}>
-              See my archived work{' '}
-              <span style={{ textDecoration: 'underline' }}>here</span>.
-            </p>
-          </div>
-        </div>
         {/* <div className="project" onClick={() => history.push('/product')}>
           <div className="project-content">
             <h5>Mini-sample</h5>
@@ -497,6 +487,19 @@ const Container = ({ location }) => {
         </div> */}
         <div className="blurb">
           <p>Get in touch.</p>
+          <p className="link">
+            <a
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                history.push('/archive');
+              }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Archive
+            </a>
+          </p>
           <p className="link">
             <a
               href="https://www.linkedin.com/in/%F0%9F%8C%88-thao-nguyen-b5b4b2bb/"
