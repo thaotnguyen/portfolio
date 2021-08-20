@@ -42,7 +42,9 @@ const Container = ({ location }) => {
   ];
 
   const backgroundColor = () => {
-    return colorMap[Math.floor(scroll / window.innerHeight)];
+    return window.innerWidth < 600
+      ? colorMap[Math.floor(scroll / window.innerHeight + 0.5)]
+      : colorMap[Math.floor(scroll / window.innerHeight)];
   };
 
   return (
@@ -487,7 +489,7 @@ const Container = ({ location }) => {
         </div> */}
         <div className="blurb">
           <p>Get in touch.</p>
-          <p className="link">
+          {/* <p className="link">
             <a
               href="#"
               onClick={(e) => {
@@ -499,7 +501,7 @@ const Container = ({ location }) => {
             >
               Archive
             </a>
-          </p>
+          </p> */}
           <p className="link">
             <a
               href="https://www.linkedin.com/in/%F0%9F%8C%88-thao-nguyen-b5b4b2bb/"
