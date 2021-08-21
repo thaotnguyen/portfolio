@@ -43,7 +43,7 @@ const Container = ({ location }) => {
 
   const backgroundColor = () => {
     return window.innerWidth < 600
-      ? colorMap[Math.floor(scroll / window.innerHeight + 0.5)]
+      ? colorMap[Math.floor(scroll / window.innerHeight - 0.5)]
       : colorMap[Math.floor(scroll / window.innerHeight)];
   };
 
