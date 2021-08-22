@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  src: url('CabinetGrotesk-Variable.ttf') format('truetype');
+       font-weight: 100 900;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: Steinbeck;
+  src: local('Steinbeck'), url('Steinbeck.ttf') format('truetype');
+       font-weight: 400;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Clash Display';
+  src: url('ClashDisplay-Variable.ttf') format('truetype');
+       font-weight: 100 900;
+       font-display: swap;
+       font-style: normal;
+}
