@@ -71,7 +71,12 @@ export const Fabric = () => {
           The name Modal comes from a modern textile that is often woven into
           other fabrics to make the end result softer and more eco-conscious.
         </FadeInView>
-        <FadeInView component={motion.img} src="/modal-logo.png" />
+        <FadeInView
+          component={motion.img}
+          src="/modal-logo.png"
+          divStyle={{ marginBottom: 64 }}
+        />
+        <FadeInView component={motion.img} src="/modal-process.png" />
         <FadeInView component={motion.h1}>Human-centered logo</FadeInView>
         <FadeInView component={motion.p}>
           The red was chosen to evoke the sophistication of fashion media such
@@ -91,6 +96,11 @@ export const Fabric = () => {
         <FadeInView
           component={motion.img}
           src="/modal1.png"
+          style={{ marginBottom: 64 }}
+        />
+        <FadeInView
+          component={motion.img}
+          src="/modal-shirt.png"
           style={{ marginBottom: 64 }}
         />
         <FadeInView component={motion.img} src="/modal-mag.png" />

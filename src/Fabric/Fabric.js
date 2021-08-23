@@ -104,6 +104,11 @@ export const Fabric = () => {
           src="/fabric-mocks.png"
           divStyle={{ marginBottom: 64 }}
         />
+        <FadeInView
+          component={motion.img}
+          src="/fabric-mocks2.png"
+          divStyle={{ marginBottom: 64 }}
+        />
         {/* <FadeInView component={motion.h1}>A versatile brand</FadeInView>
         <FadeInView component={motion.p}>
           The brand can be extended to all kinds of media easily, from physical
