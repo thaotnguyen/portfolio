@@ -101,12 +101,22 @@ export const Fabric = () => {
         </FadeInView>
         <FadeInView
           component={motion.img}
-          src="/fabric-mocks.png"
+          src="/fabric-stationery.png"
           divStyle={{ marginBottom: 64 }}
         />
         <FadeInView
           component={motion.img}
-          src="/fabric-mocks2.png"
+          src="/fabric-shirt.png"
+          divStyle={{ marginBottom: 64 }}
+        />
+        <FadeInView
+          component={motion.img}
+          src="/fabric-cup.png"
+          divStyle={{ marginBottom: 64 }}
+        />
+        <FadeInView
+          component={motion.img}
+          src="/fabric-mask.png"
           divStyle={{ marginBottom: 64 }}
         />
         {/* <FadeInView component={motion.h1}>A versatile brand</FadeInView>
