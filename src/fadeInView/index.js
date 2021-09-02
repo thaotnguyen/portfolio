@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer';
 import { item } from '../Body/Body';
 
 export const FadeInView = (props) => {
-  const { component: Component, divStyle, ...otherProps } = props;
+  const { component: Component, divStyle, marginBottom, ...otherProps } = props;
   const controls = useAnimation();
   const { ref, inView } = useInView();
   useEffect(() => {
@@ -23,6 +23,7 @@ export const FadeInView = (props) => {
         alignItems: 'flex-start',
         position: 'relative',
         flexDirection: 'column',
+        marginBottom: marginBottom ? (window.innerWidth > 600 ? 64 : 16) : 0,
         ...divStyle,
       }}
     >

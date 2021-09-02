@@ -35,8 +35,9 @@ const Container = ({ location }) => {
     '#191819',
     '#191819',
     '#191819',
-    '#420202',
+    '#720a0a',
     '#011150',
+    '#003322',
     '#420046',
     '#191819',
   ];
@@ -449,6 +450,24 @@ const Container = ({ location }) => {
             alt="Fabric UX"
             className="fabric-hero"
           />
+        </div>
+        <div
+          className="project"
+          // onClick={() => history.push('/fabric')}
+          onClick={() => history.push('/lgbt')}
+        >
+          <div className="project-content">
+            <h5>Full case study</h5>
+            <h1 style={{ lineHeight: 1.1, marginBottom: 16 }}>
+              LGBT Asylum Project
+            </h1>
+            <h4>
+              <span>Branding</span> for the LGBT Asylum Project, a nonprofit
+              that provides legal assistance to LGBTQ+ people who are facing
+              persecution. <span>(This page is under construction.)</span>
+            </h4>
+          </div>
+          <img src="/lgbt-hero.png" alt="LGBT Asylum Project" />
         </div>
         <div
           className="project"

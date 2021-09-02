@@ -38,12 +38,15 @@ export const LGBT = () => {
         component={motion.h2}
         style={{ fontSize: 32, marginBottom: 64 }}
       >
-        An expanded brand identity and the 2020 annual report for the LGBT
-        Asylum Project, a nonprofit legal organization that helps persecuted
-        LGBTQ+ people abroad get protection in the US.
+        An expanded brand identity for the LGBT Asylum Project, a nonprofit
+        legal organization that helps persecuted LGBTQ+ people abroad get
+        protection in the US.
       </FadeInView>
-
-      <FadeInView component={motion.img} src="/lgbt1.png" />
+      <FadeInView
+        component={motion.img}
+        src="/lgbt-poster-animation.gif"
+        marginBottom
+      />{' '}
       <FadeInView component={motion.h1}>At a glance</FadeInView>
       <FadeInView component={motion.p}>
         LGBTQ+ people throughout the world are subjected to violence and abuse
@@ -51,25 +54,26 @@ export const LGBT = () => {
         Project is dedicated to providing legal representation for LGBT asylum
         seekers fleeing persecutation.
       </FadeInView>
-      <FadeInView component={motion.p} divStyle={{ marginTop: -64 }}>
-        I was a volunteer visual designer creating the 2020 annual report in
-        order to get adequate funding and sponsorship for 2021. I also worked to
-        tighten up and expand their brand identity.
-      </FadeInView>
-      <FadeInView component={motion.img} src="/lgbt2.png" />
-      <FadeInView component={motion.h1}>The team's mission</FadeInView>
+      <FadeInView
+        component={motion.img}
+        src="/lgbt-stationery.png"
+        marginBottom
+      />
+      <FadeInView component={motion.img} src="/lgbt-posters.png" />
+      <FadeInView component={motion.h1}>Bold and true</FadeInView>
       <FadeInView component={motion.p}>
-        The team saw themselves as life-saving and hopeful, as well as young,
-        modern, and colorful. Even though their work could literally be a matter
-        of life and death, they saw themselves as fun so I injected a rainbow of
-        colors into the brand.
+        The brand is vibrant and bold, embodying the queer community, while also
+        staying professional and approachable. Colors from across the logo
+        combine to highlight authentic photos of queer people, selected to
+        represent authenticity and truth.
+        <br />
+        <br />
+        The photos emphasize individuals expressing their queer identity in
+        various ways, such as nonbinary gender presentation. <br />
+        <br />
+        The use of photography also lends itself well to more personalized
+        assets like business cards and stationery.
       </FadeInView>
-      <FadeInView component={motion.img} src="/lgbt3.png" />
-      <FadeInView component={motion.p}>
-        I created a number of spreads for the report in order to illustrate to
-        sponsors the value of the LGBT Asylum Project.
-      </FadeInView>
-      <FadeInView component={motion.img} src="/lgbt5.png" />
       <br />
       <br />
       <br />

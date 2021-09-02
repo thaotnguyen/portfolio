@@ -71,11 +71,7 @@ export const Fabric = () => {
           The name Modal comes from a modern textile that is often woven into
           other fabrics to make the end result softer and more eco-conscious.
         </FadeInView>
-        <FadeInView
-          component={motion.img}
-          src="/modal-logo.png"
-          divStyle={{ marginBottom: 64 }}
-        />
+        <FadeInView component={motion.img} src="/modal-logo.png" marginBottom />
         <FadeInView component={motion.img} src="/modal-process.png" />
         <FadeInView component={motion.h1}>Human-centered logo</FadeInView>
         <FadeInView component={motion.p}>
@@ -146,11 +142,7 @@ export const Fabric = () => {
           images often get users spending more time per post and also often get
           users to begin scrolling.
         </FadeInView>
-        <FadeInView
-          component={motion.img}
-          src="/modal-end.png"
-          divStyle={{ marginBottom: 64 }}
-        />
+        <FadeInView component={motion.img} src="/modal-end.png" marginBottom />
         <FadeInView
           component={motion.h2}
           style={{ fontSize: 18 }}

@@ -40,11 +40,7 @@ export const DSA = () => {
         recruit new members and raise funds for the 2020 election cycle.
       </FadeInView>
 
-      <FadeInView
-        component={motion.img}
-        src="/dsa1.png"
-        divStyle={{ marginBottom: 64 }}
-      />
+      <FadeInView component={motion.img} src="/dsa1.png" marginBottom />
       <FadeInView component={motion.img} src="/dsa2.png" />
       <br />
       <br />

@@ -102,22 +102,18 @@ export const Fabric = () => {
         <FadeInView
           component={motion.img}
           src="/fabric-stationery.png"
-          divStyle={{ marginBottom: 64 }}
+          marginBottom
         />
         <FadeInView
           component={motion.img}
           src="/fabric-shirt.png"
-          divStyle={{ marginBottom: 64 }}
+          marginBottom
         />
-        <FadeInView
-          component={motion.img}
-          src="/fabric-cup.png"
-          divStyle={{ marginBottom: 64 }}
-        />
+        <FadeInView component={motion.img} src="/fabric-cup.png" marginBottom />
         <FadeInView
           component={motion.img}
           src="/fabric-mask.png"
-          divStyle={{ marginBottom: 64 }}
+          marginBottom
         />
         {/* <FadeInView component={motion.h1}>A versatile brand</FadeInView>
         <FadeInView component={motion.p}>
@@ -127,7 +123,7 @@ export const Fabric = () => {
         <FadeInView
           component={motion.img}
           src="/fabric-slide.png"
-          divStyle={{ marginBottom: 64 }}
+          marginBottom
         />
         <FadeInView
           component={motion.img}

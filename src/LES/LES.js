@@ -53,16 +53,8 @@ export const LES = () => {
         a quirky culture. The resulting logo has strong perpendicular angles and
         extending lines, alluding to the city.
       </FadeInView>
-      <FadeInView
-        component={motion.img}
-        src="/les3.jpg"
-        divStyle={{ marginBottom: 64 }}
-      />
-      <FadeInView
-        component={motion.img}
-        src="/les4.jpg"
-        divStyle={{ marginBottom: 64 }}
-      />
+      <FadeInView component={motion.img} src="/les3.jpg" marginBottom />
+      <FadeInView component={motion.img} src="/les4.jpg" marginBottom />
       <FadeInView component={motion.img} src="/les1.jpg" />
       <br />
       <br />
