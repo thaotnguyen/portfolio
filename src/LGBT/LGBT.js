@@ -53,9 +53,9 @@ export const LGBT = () => {
         that they are.
       </FadeInView>
       <FadeInView component={motion.img} src="/lgbtq-logo.png" />{' '}
-      <FadeInView component={motion.h1}>The logo</FadeInView>
+      <FadeInView component={motion.h1}>The brand</FadeInView>
       <FadeInView component={motion.p}>
-        The organization's brand is vibrant yet professional. I extended the
+        The organization's brand is exuberant yet professional. I extended the
         life-saving and confident, bold nature of the brand to show sponsors how
         proud the organization and community are to do what they do.
       </FadeInView>
@@ -70,7 +70,7 @@ export const LGBT = () => {
       <FadeInView component={motion.img} src="/lgbt-long.png" />
       <FadeInView component={motion.h1}>Bold and true</FadeInView>
       <FadeInView component={motion.p}>
-        The brand is vibrant and bold, embodying the queer community. Colors
+        The brand is colorful and bold, embodying the queer community. Colors
         from across the logo combine to highlight authentic photos of queer
         people, selected to represent authenticity and truth.
         <br />
@@ -81,7 +81,7 @@ export const LGBT = () => {
       </FadeInView>
       <FadeInView component={motion.img} src="/lgbt-cards.png" marginBottom />
       <FadeInView component={motion.img} src="/lgbt-card-stack.png" />
-      <FadeInView component={motion.h1}>Vibrant and proud</FadeInView>
+      <FadeInView component={motion.h1}>VStrong and proud</FadeInView>
       <FadeInView component={motion.p}>
         Oswald, chosen to highlight the proud voice of the organization, and
         Crimson Pro, chosen to symbolize the simplicity and professionalism of
