@@ -469,7 +469,7 @@ const Container = ({ location }) => {
               persecution. <span>(This page is under construction.)</span>
             </h4>
           </div>
-          <img src="/lgbt-hero.png" alt="LGBT Asylum Project" />
+          <img src="/lgbtq-hero.png" alt="LGBT Asylum Project" />
         </div>
         {/* <div
           className="project"
