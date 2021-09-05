@@ -79,7 +79,6 @@ export const LGBT = () => {
         logo, but also resembles a rising circle symbolizing optimism and
         hopefulness.
       </FadeInView>
-      <FadeInView component={motion.img} src="/lgbt-guide.png" marginBottom />
       <FadeInView component={motion.img} src="/lgbt-cards.png" marginBottom />
       <FadeInView component={motion.img} src="/lgbt-card-stack.png" />
       <FadeInView component={motion.h1}>Vibrant and proud</FadeInView>
