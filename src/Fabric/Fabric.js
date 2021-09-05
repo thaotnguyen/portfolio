@@ -26,24 +26,18 @@ export const Fabric = () => {
       >
         <FadeInView
           component={motion.h1}
-          style={{ fontSize: 72 }}
+          className="title"
           divStyle={{
             width: '100%',
           }}
         >
           Fabric UX
         </FadeInView>
-        <FadeInView component={motion.h2} style={{ fontSize: 32 }}>
+        <FadeInView component={motion.h2} className="subtitle">
           A complete brand identity for an internal team within Google Ads, and
           my core project as a visual designer at Google.
         </FadeInView>
-        <FadeInView
-          component={motion.h2}
-          style={{ fontSize: 18 }}
-          divStyle={{
-            marginBottom: 64,
-          }}
-        >
+        <FadeInView component={motion.h2} style={{ fontSize: 18 }} marginBottom>
           See the complete process{' '}
           <a href="#" onClick={() => window.open('/fabric.pdf', '_blank')}>
             here
@@ -128,7 +122,8 @@ export const Fabric = () => {
         <FadeInView
           component={motion.img}
           src="/fabric-illos.gif"
-          divStyle={{ background: 'white', marginBottom: 64 }}
+          divStyle={{ background: 'white' }}
+          marginBottom
         />
         <FadeInView component={motion.img} src="/fabric-billboard.gif" />
         <FadeInView component={motion.h1}>A united brand</FadeInView>

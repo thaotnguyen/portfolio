@@ -101,27 +101,6 @@ const Container = ({ location }) => {
           </div>
           <img src="/dsa.png" alt="DSA" className="recall-hero" />
         </div>
-        <div
-          className="project"
-          // onClick={() => history.push('/recall')}
-          style={{ color: '#191819' }}
-          layoutId="recall"
-          onClick={() => history.push('/les')}
-        >
-          <div className="project-content">
-            <h5>Full case study</h5>
-            <h1>Lower East Side</h1>
-            <h4>
-              <span>Brand identity</span> for the Lower East Side, a
-              neighborhood of NYC. Part of an exercise with Azura Design.
-            </h4>
-          </div>
-          <img
-            className="recall-hero"
-            src="/recall-thumbnail.png"
-            alt="Recall"
-          />
-        </div>
         <div className="project" onClick={() => history.push('/')}>
           <div className="project-content">
             <h5 style={{ marginBottom: 8 }}>Mini-sample</h5>

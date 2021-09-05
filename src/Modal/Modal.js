@@ -26,14 +26,14 @@ export const Fabric = () => {
       >
         <FadeInView
           component={motion.h1}
-          style={{ fontSize: 72 }}
+          className="title"
           divStyle={{
             width: '100%',
           }}
         >
           Modal
         </FadeInView>
-        <FadeInView component={motion.h2} style={{ fontSize: 32 }}>
+        <FadeInView component={motion.h2} className="subtitle">
           A complete brand identity for a fashion-centric social media app for
           creators, enthusiasts, and influencers.
         </FadeInView>

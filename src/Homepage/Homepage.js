@@ -37,7 +37,8 @@ const Container = ({ location }) => {
     '#191819',
     '#720a0a',
     '#011150',
-    '#003322',
+    '#004430',
+    // '#333333',
     '#420046',
     '#191819',
   ];
@@ -441,8 +442,9 @@ const Container = ({ location }) => {
             <h5>Full case study</h5>
             <h1>Fabric UX</h1>
             <h4>
-              <span>Brand identity</span> for a team within Google Ads. Built to
-              bring together three teams under one united identity.
+              <span>Brand identity</span> for an internal team within Google
+              Ads. Built to bring together three teams under one united
+              identity.
             </h4>
           </div>
           <img
@@ -469,6 +471,27 @@ const Container = ({ location }) => {
           </div>
           <img src="/lgbt-hero.png" alt="LGBT Asylum Project" />
         </div>
+        {/* <div
+          className="project"
+          // onClick={() => history.push('/recall')}
+          style={{ color: '#191819' }}
+          layoutId="recall"
+          onClick={() => history.push('/les')}
+        >
+          <div className="project-content">
+            <h5>Full case study</h5>
+            <h1>Lower East Side</h1>
+            <h4>
+              <span>Brand identity</span> for the Lower East Side, a storied
+              neighborhood of Manhattan, New York.
+            </h4>
+          </div>
+          <img
+            className="recall-hero"
+            src="/recall-thumbnail.png"
+            alt="Recall"
+          />
+        </div> */}
         <div
           className="project"
           // onClick={() => history.push('/recall')}
