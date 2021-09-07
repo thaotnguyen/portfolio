@@ -490,7 +490,10 @@ const Container = ({ location }) => {
             </h4>
           </div>
           <img
-            style={{ maxWidth: '60%', height: 'auto' }}
+            style={{
+              maxWidth: window.innerWidth < 600 ? 'auto' : '60%',
+              height: 'auto',
+            }}
             src="/les-hero.png"
             alt="LES"
           />
