@@ -38,7 +38,7 @@ const Container = ({ location }) => {
     '#720a0a',
     '#011150',
     '#004430',
-    // '#333333',
+    '#333333',
     '#420046',
     '#191819',
   ];
@@ -466,12 +466,12 @@ const Container = ({ location }) => {
             <h4>
               <span>Branding</span> for the LGBT Asylum Project, a nonprofit
               that provides legal assistance to LGBTQ+ people who are facing
-              persecution. <span>(This page is under construction.)</span>
+              persecution.
             </h4>
           </div>
           <img src="/lgbtq-hero.png" alt="LGBT Asylum Project" />
         </div>
-        {/* <div
+        <div
           className="project"
           // onClick={() => history.push('/recall')}
           style={{ color: '#191819' }}
@@ -480,23 +480,25 @@ const Container = ({ location }) => {
         >
           <div className="project-content">
             <h5>Full case study</h5>
-            <h1>Lower East Side</h1>
+            <h1 style={{ lineHeight: 1.1, marginBottom: 16 }}>
+              Lower East Side
+            </h1>
             <h4>
               <span>Brand identity</span> for the Lower East Side, a storied
-              neighborhood of Manhattan, New York.
+              neighborhood of Manhattan, New York.{' '}
+              <span>(This page is under construction.)</span>
             </h4>
           </div>
           <img
-            className="recall-hero"
-            src="/recall-thumbnail.png"
-            alt="Recall"
+            style={{ maxWidth: '60%', height: 'auto' }}
+            src="/les-hero.png"
+            alt="LES"
           />
-        </div> */}
+        </div>
         <div
           className="project"
           // onClick={() => history.push('/recall')}
           style={{ color: '#191819' }}
-          layoutId="recall"
           onClick={() => window.open('/recall.pdf', '_blank')}
         >
           <div className="project-content">

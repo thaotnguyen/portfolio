@@ -81,7 +81,7 @@ export const LGBT = () => {
       </FadeInView>
       <FadeInView component={motion.img} src="/lgbt-cards.png" marginBottom />
       <FadeInView component={motion.img} src="/lgbt-card-stack.png" />
-      <FadeInView component={motion.h1}>VStrong and proud</FadeInView>
+      <FadeInView component={motion.h1}>Strong and proud</FadeInView>
       <FadeInView component={motion.p}>
         Oswald, chosen to highlight the proud voice of the organization, and
         Crimson Pro, chosen to symbolize the simplicity and professionalism of
