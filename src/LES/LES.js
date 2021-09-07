@@ -40,7 +40,7 @@ export const LES = () => {
         Manhattan.
       </FadeInView>
 
-      <FadeInView component={motion.img} src="/les5.jpg" />
+      <FadeInView component={motion.img} src="/les-subway.png" />
       <FadeInView component={motion.h1}>At a glance</FadeInView>
       <FadeInView component={motion.p}>
         The Lower East Side is a storied neighborhood that is rapidly
@@ -67,8 +67,7 @@ export const LES = () => {
       </FadeInView>
       <FadeInView component={motion.img} src="/les-katz.png" marginBottom />
       <FadeInView component={motion.img} src="/les-dirt.png" marginBottom />
-      <FadeInView component={motion.img} src="/les-bake.png" marginBottom />
-      <FadeInView component={motion.img} src="/les-subway.png" />
+      <FadeInView component={motion.img} src="/les-bake.png" />
       <FadeInView component={motion.h1}>Promoting the neighborhood</FadeInView>
       <FadeInView component={motion.p}>
         The brand shows visitors exactly what the LES is: a historical
