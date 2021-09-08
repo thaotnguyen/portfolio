@@ -39,7 +39,6 @@ export const LES = () => {
         A brand identity for the Lower East Side, a neighborhood in lower
         Manhattan.
       </FadeInView>
-
       <FadeInView component={motion.img} src="/les-subway.png" />
       <FadeInView component={motion.h1}>At a glance</FadeInView>
       <FadeInView component={motion.p}>
@@ -80,16 +79,13 @@ export const LES = () => {
       </FadeInView>
       <FadeInView component={motion.img} src="/les-card.png" marginBottom />
       <FadeInView component={motion.img} src="/les-bag.png" marginBottom />
-      <FadeInView component={motion.img} src="/les-clothes.png" />
-      <FadeInView component={motion.h1}>Promoting the neighborhood</FadeInView>
+      <FadeInView component={motion.img} src="/les-clothes.png" marginBottom />
+      <FadeInView component={motion.img} src="/les-mural.png" />
+      <FadeInView component={motion.h1}>A flexible brand</FadeInView>
       <FadeInView component={motion.p}>
-        The brand shows visitors exactly what the LES is: a historical
-        neighborhood with an eccentric modern twist. The repetition of
-        perpendicular sets of parallel text is reminiscent of NYC's city grid.
-        <br />
-        <br />
-        The brand is oriented towards visitors to promote commerce and tourism
-        in the LES.
+        The pillars of the brand are strong perpendicular angles with a 23&deg;
+        tilt, which makes the brand easily extendable and applicable in many
+        different ways.
       </FadeInView>
       <br />
       <br />
