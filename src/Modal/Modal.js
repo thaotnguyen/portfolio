@@ -60,6 +60,7 @@ export const Fabric = () => {
         </FadeInView>
         <FadeInView component={motion.p}></FadeInView>
         {/* <FadeInView component={motion.img} src="/modal-mood.png" /> */}
+        <FadeInView component={motion.img} src="/modal-logo.png" marginBottom />
         <FadeInView component={motion.h1}>The team's vision</FadeInView>
         <FadeInView component={motion.p}>
           I established 4 brand pillars with the team: being contemporary,
@@ -71,9 +72,8 @@ export const Fabric = () => {
           The name Modal comes from a modern textile that is often woven into
           other fabrics to make the end result softer and more eco-conscious.
         </FadeInView>
-        <FadeInView component={motion.img} src="/modal-logo.png" marginBottom />
         {/* <FadeInView component={motion.img} src="/modal-process.png" /> */}
-        <FadeInView component={motion.h1}>Human-centered logo</FadeInView>
+        {/* <FadeInView component={motion.h1}>Human-centered logo</FadeInView>
         <FadeInView component={motion.p}>
           The red was chosen to evoke the sophistication of fashion media such
           as Vogue and Vanity Fair, balanced out by the humanist font. <br />
@@ -81,7 +81,7 @@ export const Fabric = () => {
           The red shape, inspired by the shape of dropping a piece of fabric
           onto a ball, is a common thread through visual patterns in the brand
           and morphs to represent human features.
-        </FadeInView>
+        </FadeInView> */}
         <FadeInView component={motion.img} src="/modal-faces.png" />
         <FadeInView component={motion.h1}>A brand that feels human</FadeInView>
         <FadeInView component={motion.p}>
