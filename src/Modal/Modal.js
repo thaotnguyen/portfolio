@@ -59,7 +59,7 @@ export const Fabric = () => {
           create a brand and app to solve this problem.
         </FadeInView>
         <FadeInView component={motion.p}></FadeInView>
-        <FadeInView component={motion.img} src="/modal-mood.png" />
+        {/* <FadeInView component={motion.img} src="/modal-mood.png" /> */}
         <FadeInView component={motion.h1}>The team's vision</FadeInView>
         <FadeInView component={motion.p}>
           I established 4 brand pillars with the team: being contemporary,
@@ -72,7 +72,7 @@ export const Fabric = () => {
           other fabrics to make the end result softer and more eco-conscious.
         </FadeInView>
         <FadeInView component={motion.img} src="/modal-logo.png" marginBottom />
-        <FadeInView component={motion.img} src="/modal-process.png" />
+        {/* <FadeInView component={motion.img} src="/modal-process.png" /> */}
         <FadeInView component={motion.h1}>Human-centered logo</FadeInView>
         <FadeInView component={motion.p}>
           The red was chosen to evoke the sophistication of fashion media such
@@ -91,14 +91,14 @@ export const Fabric = () => {
         </FadeInView>
         <FadeInView
           component={motion.img}
-          src="/modal1.png"
+          src="/modal-cards.png"
           style={{ marginBottom: 64 }}
         />
-        <FadeInView
+        {/* <FadeInView
           component={motion.img}
           src="/modal-shirt.png"
           style={{ marginBottom: 64 }}
-        />
+        /> */}
         <FadeInView component={motion.img} src="/modal-mag.png" />
         <FadeInView component={motion.h1}>A versatile brand</FadeInView>
         <FadeInView component={motion.p}>
@@ -106,22 +106,22 @@ export const Fabric = () => {
           to digital to print. The red shape can also be used as an underline to
           emphasize text and photography.
         </FadeInView>
-        <FadeInView component={motion.img} src="/modal-icon.png" />
+        {/* <FadeInView component={motion.img} src="/modal-icon.png" />
         <FadeInView component={motion.h1}>
           An app icon that stands out
         </FadeInView>
         <FadeInView component={motion.p}>
           The bold nature of the logo and illustrations mean that the app icon
           will stand out on anyone's phone screen.
-        </FadeInView>
-        <FadeInView component={motion.img} src="/modal-system.png" />
+        </FadeInView> */}
+        {/* <FadeInView component={motion.img} src="/modal-system.png" />
         <FadeInView component={motion.h1}>The brand system</FadeInView>
         <FadeInView component={motion.p}>
           A comprehensive brand system for future designers on the Modal team.
           Special consideration was taken to include a light version of the
           primary color in order to maintain proper contrast in accessibility
           contexts.
-        </FadeInView>
+        </FadeInView> */}
         <FadeInView component={motion.img} src="/modal-feed.gif" />
         <FadeInView component={motion.h1}>Unique interactions</FadeInView>
         <FadeInView component={motion.p}>
