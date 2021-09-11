@@ -53,10 +53,9 @@ export const Fabric = () => {
         <FadeInView component={motion.img} src="/modal-screens.png" />
         <FadeInView component={motion.h1}>At a glance</FadeInView>
         <FadeInView component={motion.p}>
-          Young people at UCLA were frequently saying there is no place to ask
-          questions or find new styles. They felt current social media didn’t
-          match their needs. I was brought on as a freelance visual designer to
-          create a brand and app to solve this problem.
+          I was a freelance visual and product designer to create a brand and
+          build an app where people could ask questions, learn, and connect over
+          fashion.
         </FadeInView>
         <FadeInView component={motion.p}></FadeInView>
         {/* <FadeInView component={motion.img} src="/modal-mood.png" /> */}
@@ -82,13 +81,11 @@ export const Fabric = () => {
           onto a ball, is a common thread through visual patterns in the brand
           and morphs to represent human features.
         </FadeInView> */}
-        <FadeInView component={motion.img} src="/modal-faces.png" />
-        <FadeInView component={motion.h1}>A brand that feels human</FadeInView>
-        <FadeInView component={motion.p}>
-          The brand system is flexible and can be adapted to many different
-          illustrations. Here the red shape represents lips, eyes, and a heart,
-          conveying a sense of human connection.
-        </FadeInView>
+        <FadeInView
+          component={motion.img}
+          src="/modal-faces.png"
+          marginBottom
+        />
         <FadeInView
           component={motion.img}
           src="/modal-cards.png"
@@ -99,12 +96,27 @@ export const Fabric = () => {
           src="/modal-shirt.png"
           style={{ marginBottom: 64 }}
         /> */}
-        <FadeInView component={motion.img} src="/modal-mag.png" />
+        <FadeInView component={motion.img} src="/modal-mag.png" marginBottom />
+        {/* <FadeInView
+          component={motion.img}
+          src="/modal-font.png"
+          divStyle={{ background: 'white' }}
+          style={{
+            padding: window.innerWidth < 600 ? 16 : 64,
+            boxSizing: 'border-box',
+          }}
+        /> */}
         <FadeInView component={motion.h1}>A versatile brand</FadeInView>
         <FadeInView component={motion.p}>
           The brand can be extended to all kinds of media easily, from physical
           to digital to print. The red shape can also be used as an underline to
           emphasize text and photography.
+          <br />
+          <br />
+          The font, Radio Grotesk, has atypical humanist curves and brings an
+          element of sophistication without feeling inaccessible. The color red
+          was chosen to represent fashion and sophistication, reminiscent of
+          Vogue or Vanity Fair.
         </FadeInView>
         {/* <FadeInView component={motion.img} src="/modal-icon.png" />
         <FadeInView component={motion.h1}>
@@ -133,7 +145,7 @@ export const Fabric = () => {
         <FadeInView component={motion.img} src="/modal-app.png" />
         <FadeInView component={motion.h1}>Immersive screens</FadeInView>
         <FadeInView component={motion.p}>
-          Major priorities for the UX design of Modal was to maximize user
+          Major priorities for the UX design of Modal were to maximize user
           engagement and to capitalize on the fact that fashion revenue is
           increasingly moving online.
           <br />

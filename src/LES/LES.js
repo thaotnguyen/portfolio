@@ -50,7 +50,16 @@ export const LES = () => {
         <br />I worked as a brand designer on this project. This project was
         done with Azura Design at the School of Visual Arts.
       </FadeInView>
-      <FadeInView component={motion.img} src="/les-logo.png" />
+      <FadeInView component={motion.img} src="/les-logo.png" marginBottom />
+      <FadeInView
+        component={motion.img}
+        src="/les-font.png"
+        divStyle={{ background: 'white' }}
+        style={{
+          padding: window.innerWidth < 600 ? 16 : 64,
+          boxSizing: 'border-box',
+        }}
+      />
       <FadeInView component={motion.h1}>The brand</FadeInView>
       <FadeInView component={motion.p}>
         The logo has perpendicular angles and extending lines, alluding to the

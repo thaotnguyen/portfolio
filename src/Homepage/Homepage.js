@@ -35,10 +35,10 @@ const Container = ({ location }) => {
     '#191819',
     '#191819',
     '#191819',
-    '#720a0a',
     '#011150',
-    '#004430',
+    '#720a0a',
     '#333333',
+    '#004430',
     '#420046',
     '#191819',
   ];
@@ -419,23 +419,6 @@ const Container = ({ location }) => {
         <div
           className="project"
           // onClick={() => history.push('/fabric')}
-          onClick={() => history.push('/modal')}
-        >
-          <div className="project-content">
-            <h5>Full case study</h5>
-            <h1>Modal</h1>
-            <h4>
-              <span>Brand identity</span> and <span>product design</span> for a
-              fashion-centric social media app where users can learn from
-              others, share their outfits and knowledge, and expand their
-              fashion experience.
-            </h4>
-          </div>
-          <img src="/modal-thumbnail.png" alt="Modal" />
-        </div>
-        <div
-          className="project"
-          // onClick={() => history.push('/fabric')}
           onClick={() => history.push('/fabric')}
         >
           <div className="project-content">
@@ -456,20 +439,19 @@ const Container = ({ location }) => {
         <div
           className="project"
           // onClick={() => history.push('/fabric')}
-          onClick={() => history.push('/lgbt')}
+          onClick={() => history.push('/modal')}
         >
           <div className="project-content">
             <h5>Full case study</h5>
-            <h1 style={{ lineHeight: 1.1, marginBottom: 16 }}>
-              LGBT Asylum Project
-            </h1>
+            <h1>Modal</h1>
             <h4>
-              <span>Branding</span> for the LGBT Asylum Project, a nonprofit
-              that provides legal assistance to LGBTQ+ people who are facing
-              persecution.
+              <span>Brand identity</span> and <span>product design</span> for a
+              fashion-centric social media app where users can learn from
+              others, share their outfits and knowledge, and expand their
+              fashion experience.
             </h4>
           </div>
-          <img src="/lgbtq-hero.png" alt="LGBT Asylum Project" />
+          <img src="/modal-thumbnail.png" alt="Modal" />
         </div>
         <div
           className="project"
@@ -497,6 +479,24 @@ const Container = ({ location }) => {
             src="/les-hero.png"
             alt="LES"
           />
+        </div>
+        <div
+          className="project"
+          // onClick={() => history.push('/fabric')}
+          onClick={() => history.push('/lgbt')}
+        >
+          <div className="project-content">
+            <h5>Full case study</h5>
+            <h1 style={{ lineHeight: 1.1, marginBottom: 16 }}>
+              LGBT Asylum Project
+            </h1>
+            <h4>
+              <span>Branding</span> for the LGBT Asylum Project, a nonprofit
+              that provides legal assistance to LGBTQ+ people who are facing
+              persecution.
+            </h4>
+          </div>
+          <img src="/lgbtq-hero.png" alt="LGBT Asylum Project" />
         </div>
         <div
           className="project"
