@@ -109,8 +109,7 @@ export const Fabric = () => {
         <FadeInView component={motion.h1}>A versatile brand</FadeInView>
         <FadeInView component={motion.p}>
           The brand can be extended to all kinds of media easily, from physical
-          to digital to print. The red shape can also be used as an underline to
-          emphasize text and photography.
+          to digital to print.
           <br />
           <br />
           The font, Radio Grotesk, has atypical humanist curves and brings an
