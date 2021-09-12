@@ -438,6 +438,32 @@ const Container = ({ location }) => {
         </div>
         <div
           className="project"
+          // onClick={() => history.push('/recall')}
+          style={{ color: '#191819' }}
+          layoutId="recall"
+          onClick={() => history.push('/les')}
+        >
+          <div className="project-content">
+            <h5>Full case study</h5>
+            <h1 style={{ lineHeight: 1.1, marginBottom: 16 }}>
+              Lower East Side
+            </h1>
+            <h4>
+              <span>Brand identity</span> for the Lower East Side, a storied
+              neighborhood of Manhattan, New York.{' '}
+            </h4>
+          </div>
+          <img
+            style={{
+              maxWidth: window.innerWidth < 600 ? '100%' : '60%',
+              height: 'auto',
+            }}
+            src="/les-hero.png"
+            alt="LES"
+          />
+        </div>
+        <div
+          className="project"
           // onClick={() => history.push('/fabric')}
           onClick={() => history.push('/modal')}
         >
@@ -452,33 +478,6 @@ const Container = ({ location }) => {
             </h4>
           </div>
           <img src="/modal-thumbnail.png" alt="Modal" />
-        </div>
-        <div
-          className="project"
-          // onClick={() => history.push('/recall')}
-          style={{ color: '#191819' }}
-          layoutId="recall"
-          onClick={() => history.push('/les')}
-        >
-          <div className="project-content">
-            <h5>Full case study</h5>
-            <h1 style={{ lineHeight: 1.1, marginBottom: 16 }}>
-              Lower East Side
-            </h1>
-            <h4>
-              <span>Brand identity</span> for the Lower East Side, a storied
-              neighborhood of Manhattan, New York.{' '}
-              <span>(This page is under construction.)</span>
-            </h4>
-          </div>
-          <img
-            style={{
-              maxWidth: window.innerWidth < 600 ? '100%' : '60%',
-              height: 'auto',
-            }}
-            src="/les-hero.png"
-            alt="LES"
-          />
         </div>
         <div
           className="project"
