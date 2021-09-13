@@ -67,11 +67,9 @@ export const LES = () => {
         like the city grid of the Lower East Side.
         <br />
         <br />
-        The brand uses Helvetica as the main typeface because, like the
-        neighborhood itself, Helvetica has a long and grand history. Helvetica
-        is also used in both old and new design and, with the recent rise of
-        brutalist design, Helvetica is now used in artsier places like the logo
-        of Comme des Gar&ccedil;ons.
+        The brand uses all-caps Gotham to further allude to NYC. Specifically,
+        Gotham Black is used, because the boldness of the typeface helps create
+        a more filled in silhouette that resembles the NYC street grid.
       </FadeInView>
       <FadeInView component={motion.img} src="/les-katz.png" marginBottom />
       <FadeInView component={motion.img} src="/les-dirt.png" marginBottom />
