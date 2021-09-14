@@ -88,7 +88,7 @@ export const LGBT = () => {
         their spirit, contrast to show sponsors the full soul of the LGBT Asylum
         Project and the work that they're so passionate about.
       </FadeInView>
-      <FadeInView component={motion.img} src="/lgbt-report2.png" marginBottom />
+      {/* <FadeInView component={motion.img} src="/lgbt-report2.png" marginBottom /> */}
       <FadeInView component={motion.img} src="/lgbt-report.png" />
       <FadeInView component={motion.h1}>Impact</FadeInView>
       <FadeInView component={motion.p}>
