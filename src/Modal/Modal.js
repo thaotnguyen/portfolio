@@ -62,14 +62,15 @@ export const Fabric = () => {
         <FadeInView component={motion.img} src="/modal-logo.png" marginBottom />
         <FadeInView component={motion.h1}>The team's vision</FadeInView>
         <FadeInView component={motion.p}>
-          I established 4 brand pillars with the team: being contemporary,
-          accessible, human-centric, and stylish. Modal shouldn't feel like
-          other social media apps, it should have a special flair to it that
-          also feels personable.
+          Modal has 4 brand pillars: being contemporary, accessible,
+          human-centric, and stylish. Modal shouldn't feel like other social
+          media apps, it should have a special flair to it that also feels
+          personable.
           <br />
           <br />
-          The name Modal comes from a modern textile that is often woven into
-          other fabrics to make the end result softer and more eco-conscious.
+          The name Modal comes from the French word for fashion, "mode". Modal
+          is also a modern textile that is often woven into other fabrics to
+          make the end result softer and more eco-conscious.
         </FadeInView>
         {/* <FadeInView component={motion.img} src="/modal-process.png" /> */}
         {/* <FadeInView component={motion.h1}>Human-centered logo</FadeInView>
@@ -148,12 +149,13 @@ export const Fabric = () => {
           engagement and to capitalize on the fact that fashion revenue is
           increasingly moving online.
           <br />
-          <br />I decided to take a different approach to profile pages and
-          posts, opting for a full screen presentation for both. Full screen
-          images often get users spending more time per post and also often get
-          users to begin scrolling.
+          <br />
+          Modal has a different approach to profile pages and posts, opting for
+          a full screen presentation for both. Full screen images often get
+          users spending more time per post and also often get users to begin
+          scrolling.
         </FadeInView>
-        <FadeInView component={motion.img} src="/modal-end.png" marginBottom />
+        {/* <FadeInView component={motion.img} src="/modal-end.png" marginBottom /> */}
         <FadeInView
           component={motion.h2}
           style={{ fontSize: 18 }}
