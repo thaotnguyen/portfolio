@@ -37,7 +37,7 @@ export const Fabric = () => {
           A complete brand identity for a fashion-centric social media app for
           creators, enthusiasts, and influencers.
         </FadeInView>
-        <FadeInView
+        {/* <FadeInView
           component={motion.h2}
           style={{ fontSize: 18 }}
           divStyle={{
@@ -49,8 +49,8 @@ export const Fabric = () => {
             here
           </a>
           .
-        </FadeInView>
-        <FadeInView component={motion.img} src="/modal-screens.png" />
+        </FadeInView> */}
+        <FadeInView component={motion.img} src="/modal-ad.png" />
         <FadeInView component={motion.h1}>At a glance</FadeInView>
         <FadeInView component={motion.p}>
           I was a freelance visual and product designer to create a brand and
@@ -65,7 +65,7 @@ export const Fabric = () => {
           Modal has 4 brand pillars: being contemporary, accessible,
           human-centric, and stylish. Modal shouldn't feel like other social
           media apps, it should have a special flair to it that also feels
-          personable.
+          personable. At the same time, Modal is for everyone.
           <br />
           <br />
           The name Modal comes from the French word for fashion, "mode". Modal
@@ -82,14 +82,10 @@ export const Fabric = () => {
           onto a ball, is a common thread through visual patterns in the brand
           and morphs to represent human features.
         </FadeInView> */}
+        <FadeInView component={motion.img} src="/modal-icon.png" marginBottom />
         <FadeInView
           component={motion.img}
-          src="/modal-faces.png"
-          marginBottom
-        />
-        <FadeInView
-          component={motion.img}
-          src="/modal-cards.png"
+          src="/modal-ig.gif"
           style={{ marginBottom: 64 }}
         />
         {/* <FadeInView
@@ -97,26 +93,25 @@ export const Fabric = () => {
           src="/modal-shirt.png"
           style={{ marginBottom: 64 }}
         /> */}
-        <FadeInView component={motion.img} src="/modal-mag.png" marginBottom />
+        {/* <FadeInView component={motion.img} src="/modal-mag.png" marginBottom /> */}
         {/* <FadeInView
           component={motion.img}
           src="/modal-font.png"
           divStyle={{ background: 'white' }}
-          style={{
-            padding: window.innerWidth < 600 ? 16 : 64,
-            boxSizing: 'border-box',
-          }}
         /> */}
-        <FadeInView component={motion.h1}>A versatile brand</FadeInView>
+        <FadeInView component={motion.h1}>The audience</FadeInView>
         <FadeInView component={motion.p}>
-          The brand can be extended to all kinds of media easily, from physical
-          to digital to print.
+          The circular motif is used to highlight the individual of each
+          portrait, and, combined with photography depicting a diverse set of
+          people, helps every user feel like their unique characteristics can
+          make them fashionable too.
           <br />
           <br />
-          The font, Radio Grotesk, has atypical humanist curves and brings an
-          element of sophistication without feeling inaccessible. The color red
-          was chosen to represent fashion and sophistication, reminiscent of
-          Vogue or Vanity Fair.
+          The primary color, neon yellow, was chosen to symbolize the rebellious
+          and unapologetic nature of today's youth, the target audience for the
+          brand. The font, Radio Grotesk, has elegant humanist curves while
+          bringing a polished feel, and introduces an element of sophistication
+          without feeling inaccessible.
         </FadeInView>
         {/* <FadeInView component={motion.img} src="/modal-icon.png" />
         <FadeInView component={motion.h1}>
@@ -141,6 +136,9 @@ export const Fabric = () => {
           such as the scrolling animation. It gets users engaged and immersed
           through style while also differentiating Modal from other social media
           apps.
+          <br />
+          <br />
+          The app uses HK Grotesk for increased readability.
         </FadeInView>
         <FadeInView component={motion.img} src="/modal-app.png" />
         <FadeInView component={motion.h1}>Immersive screens</FadeInView>
@@ -156,7 +154,7 @@ export const Fabric = () => {
           scrolling.
         </FadeInView>
         {/* <FadeInView component={motion.img} src="/modal-end.png" marginBottom /> */}
-        <FadeInView
+        {/* <FadeInView
           component={motion.h2}
           style={{ fontSize: 18 }}
           divStyle={{
@@ -168,7 +166,7 @@ export const Fabric = () => {
             here
           </a>
           .
-        </FadeInView>
+        </FadeInView> */}
         <br />
         <br />
         <br />

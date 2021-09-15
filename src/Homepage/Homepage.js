@@ -37,7 +37,7 @@ const Container = ({ location }) => {
     '#191819',
     '#011150',
     '#333333',
-    '#720a0a',
+    '#32520a',
     '#004430',
     '#420046',
     '#191819',
@@ -474,10 +474,10 @@ const Container = ({ location }) => {
               <span>Brand identity</span> and <span>product design</span> for a
               fashion-centric social media app where users can learn from
               others, share their outfits and knowledge, and expand their
-              fashion experience.
+              fashion experience.<span>(This page is under construction.)</span>
             </h4>
           </div>
-          <img src="/modal-thumbnail.png" alt="Modal" />
+          <img src="/modal-hero.png" alt="Modal" />
         </div>
         <div
           className="project"
