@@ -38,7 +38,7 @@ const Container = ({ location }) => {
     '#011150',
     '#32520a',
     '#333333',
-    '#004430',
+    // '#004430',
     '#420046',
     '#191819',
   ];
@@ -480,7 +480,7 @@ const Container = ({ location }) => {
           />
         </div>
 
-        <div
+        {/* <div
           className="project"
           // onClick={() => history.push('/fabric')}
           onClick={() => history.push('/lgbt')}
@@ -497,7 +497,7 @@ const Container = ({ location }) => {
             </h4>
           </div>
           <img src="/lgbtq-hero.png" alt="LGBT Asylum Project" />
-        </div>
+        </div> */}
         <div
           className="project"
           // onClick={() => history.push('/recall')}
@@ -558,7 +558,7 @@ const Container = ({ location }) => {
               Linkedin
             </a>
           </p>
-          <p className="link">
+          {/* <p className="link">
             <a
               href="https://github.com/thaotnguyen"
               target="_blank"
@@ -566,7 +566,7 @@ const Container = ({ location }) => {
             >
               Github
             </a>
-          </p>
+          </p> */}
           <p className="link">
             <a
               href=""
