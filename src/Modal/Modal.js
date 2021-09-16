@@ -59,7 +59,7 @@ export const Fabric = () => {
         </FadeInView>
         <FadeInView component={motion.p}></FadeInView>
         {/* <FadeInView component={motion.img} src="/modal-mood.png" /> */}
-        <FadeInView component={motion.img} src="/modal-logo.png" marginBottom />
+        <FadeInView component={motion.img} src="/modal-icon.png" marginBottom />
         <FadeInView component={motion.h1}>The team's vision</FadeInView>
         <FadeInView component={motion.p}>
           Modal has 4 brand pillars: being contemporary, accessible,
@@ -82,18 +82,23 @@ export const Fabric = () => {
           onto a ball, is a common thread through visual patterns in the brand
           and morphs to represent human features.
         </FadeInView> */}
-        <FadeInView component={motion.img} src="/modal-icon.png" marginBottom />
+        {/* <FadeInView component={motion.img} src="/modal-icon.png" marginBottom /> */}
         <FadeInView
           component={motion.img}
           src="/modal-ig.gif"
           style={{ marginBottom: 64 }}
         />
-        {/* <FadeInView
+        <FadeInView
           component={motion.img}
-          src="/modal-shirt.png"
-          style={{ marginBottom: 64 }}
-        /> */}
-        {/* <FadeInView component={motion.img} src="/modal-mag.png" marginBottom /> */}
+          src="/modal-cards.png"
+          marginBottom
+        />
+        <FadeInView component={motion.img} src="/modal-mag.png" marginBottom />
+        <FadeInView
+          component={motion.img}
+          src="/modal-billboard.png"
+          marginBottom
+        />
         {/* <FadeInView
           component={motion.img}
           src="/modal-font.png"

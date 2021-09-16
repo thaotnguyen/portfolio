@@ -36,8 +36,8 @@ const Container = ({ location }) => {
     '#191819',
     '#191819',
     '#011150',
-    '#333333',
     '#32520a',
+    '#333333',
     '#004430',
     '#420046',
     '#191819',
@@ -438,6 +438,23 @@ const Container = ({ location }) => {
         </div>
         <div
           className="project"
+          // onClick={() => history.push('/fabric')}
+          onClick={() => history.push('/modal')}
+        >
+          <div className="project-content">
+            <h5>Full case study</h5>
+            <h1>Modal</h1>
+            <h4>
+              <span>Brand identity</span> and <span>product design</span> for a
+              fashion-centric social media app where users can learn from
+              others, share their outfits and knowledge, and expand their
+              fashion experience.<span>(This page is under construction.)</span>
+            </h4>
+          </div>
+          <img src="/modal-hero.png" alt="Modal" />
+        </div>
+        <div
+          className="project"
           // onClick={() => history.push('/recall')}
           style={{ color: '#191819' }}
           layoutId="recall"
@@ -462,23 +479,7 @@ const Container = ({ location }) => {
             alt="LES"
           />
         </div>
-        <div
-          className="project"
-          // onClick={() => history.push('/fabric')}
-          onClick={() => history.push('/modal')}
-        >
-          <div className="project-content">
-            <h5>Full case study</h5>
-            <h1>Modal</h1>
-            <h4>
-              <span>Brand identity</span> and <span>product design</span> for a
-              fashion-centric social media app where users can learn from
-              others, share their outfits and knowledge, and expand their
-              fashion experience.<span>(This page is under construction.)</span>
-            </h4>
-          </div>
-          <img src="/modal-hero.png" alt="Modal" />
-        </div>
+
         <div
           className="project"
           // onClick={() => history.push('/fabric')}
