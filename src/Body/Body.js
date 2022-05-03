@@ -52,19 +52,19 @@ function Body() {
     });
   }
 
-  useEffect(() => {
-    Promise.all(
-      ['/recall.png', '/fabric-hero.png', '/illustration.png'].map((image) => {
-        return loadImage(image, new Image());
-      })
-    ).then(() => {
-      setImagesLoaded(true);
-    });
-  }, []);
+  // useEffect(() => {
+  //   Promise.all(
+  //     ['/recall.png', '/fabric-hero.png', '/illustration.png'].map((image) => {
+  //       return loadImage(image, new Image());
+  //     })
+  //   ).then(() => {
+  //     setImagesLoaded(true);
+  //   });
+  // }, []);
 
-  if (!imagesLoaded) {
-    return null;
-  }
+  // if (!imagesLoaded) {
+  //   return null;
+  // }
 
   return (
     <div>
@@ -80,19 +80,19 @@ function Body() {
           </a>
         </div>
       </div>
-      <AnimatePresence exitBeforeEnter>
-        <Switch location={location} key={location.pathname}>
-          <Route path="/" component={Homepage} exact />
-          <Route path="/recall" component={Recall} />
-          <Route path="/fabric" component={Fabric} />
-          <Route path="/modal" component={Modal} />
-          <Route path="/archive" component={Archive} />
-          <Route path="/product" component={Product} />
-          <Route path="/lgbt" component={LGBT} />
-          <Route path="/dsa" component={DSA} />
-          <Route path="/les" component={LES} />
-        </Switch>
-      </AnimatePresence>
+      {/* <AnimatePresence exitBeforeEnter> */}
+      <Switch location={location} key={location.pathname}>
+        <Route path="/" component={Homepage} exact />
+        <Route path="/recall" component={Recall} />
+        <Route path="/fabric" component={Fabric} />
+        <Route path="/modal" component={Modal} />
+        <Route path="/archive" component={Archive} />
+        <Route path="/product" component={Product} />
+        <Route path="/lgbt" component={LGBT} />
+        <Route path="/dsa" component={DSA} />
+        <Route path="/les" component={LES} />
+      </Switch>
+      {/* </AnimatePresence> */}
     </div>
   );
 }
