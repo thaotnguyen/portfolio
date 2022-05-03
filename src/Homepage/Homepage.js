@@ -109,6 +109,7 @@ const Container = ({ location }) => {
                       >
                         o
                       </span>
+                      <span>&nbsp;</span>
                       <span
                         style={{
                           transform: `translateY(${endCoordinates[4] * (scroll / 1500)
@@ -166,7 +167,6 @@ const Container = ({ location }) => {
                 >
                   <h1 className="title1">
                     <span>&#8213;</span>
-                    <span>&nbsp;</span>
                     <span
                       style={{
                         transform: `translateY(${endCoordinates[10] * (scroll / 1500)
