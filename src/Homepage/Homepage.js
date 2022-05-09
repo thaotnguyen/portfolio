@@ -35,11 +35,11 @@ const Container = ({ location }) => {
     '#191819',
     '#191819',
     '#191819',
+    '#420046',
     '#011150',
     '#32520a',
     '#333333',
     // '#004430',
-    '#420046',
     '#191819',
   ];
 
@@ -370,8 +370,9 @@ const Container = ({ location }) => {
         <div style={{ height: '12vh' }} />
         <div className="blurb">
           <p>
-            Hi, I'm Thao and I'm a visual and digital designer, based
-            in NYC and the SF Bay Area.
+            Hi, I'm Thao and I'm a visual and digital designer at Local Projects and based
+            in NYC and the SF Bay Area. I create experiences ranging from media-based storytelling
+            to museum graphics for clients including IBM and EY.
           </p>
           <p>
             I have a huge appetite for learning, growth, and new experiences and
@@ -381,6 +382,27 @@ const Container = ({ location }) => {
             I'm a quick learner who loves impactful, empathetic work and is
             interested in helping underserved communities amplify their voices.
           </p>
+        </div>
+        <div
+          className="project"
+          // onClick={() => history.push('/recall')}
+          style={{ color: '#191819' }}
+          onClick={() => window.open('/recall.pdf', '_blank')}
+        >
+          <div className="project-content">
+            <h5>Full case study</h5>
+            <h1>Recall</h1>
+            <h4>
+              <span>Product design</span> for a video platform at Google that
+              enables UX researchers to record, upload, analyze, and share
+              videos of their user studies.
+            </h4>
+          </div>
+          <img
+            className="recall-hero"
+            src="/recall-thumbnail.png"
+            alt="Recall"
+          />
         </div>
         <div
           className="project"
@@ -464,27 +486,6 @@ const Container = ({ location }) => {
           </div>
           <img src="/lgbtq-hero.png" alt="LGBT Asylum Project" />
         </div> */}
-        <div
-          className="project"
-          // onClick={() => history.push('/recall')}
-          style={{ color: '#191819' }}
-          onClick={() => window.open('/recall.pdf', '_blank')}
-        >
-          <div className="project-content">
-            <h5>Full case study</h5>
-            <h1>Recall</h1>
-            <h4>
-              <span>Product design</span> for a video platform at Google that
-              enables UX researchers to record, upload, analyze, and share
-              videos of their user studies.
-            </h4>
-          </div>
-          <img
-            className="recall-hero"
-            src="/recall-thumbnail.png"
-            alt="Recall"
-          />
-        </div>
         {/* <div className="project" onClick={() => history.push('/product')}>
           <div className="project-content">
             <h5>Mini-sample</h5>
