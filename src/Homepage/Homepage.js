@@ -37,8 +37,8 @@ const Container = ({ location }) => {
     '#191819',
     '#420046',
     '#011150',
-    '#32520a',
-    '#333333',
+    // '#32520a',
+    // '#333333',
     // '#004430',
     '#191819',
   ];
@@ -243,7 +243,7 @@ const Container = ({ location }) => {
                           }px)`,
                       }}
                     >
-                      d
+                      p
                     </span>
                     <span
                       style={{
@@ -251,7 +251,7 @@ const Container = ({ location }) => {
                           }px)`,
                       }}
                     >
-                      i
+                      r
                     </span>
                     <span
                       style={{
@@ -259,7 +259,7 @@ const Container = ({ location }) => {
                           }px)`,
                       }}
                     >
-                      g
+                      o
                     </span>
                     <span
                       style={{
@@ -267,7 +267,7 @@ const Container = ({ location }) => {
                           }px)`,
                       }}
                     >
-                      i
+                      d
                     </span>
                     <span
                       style={{
@@ -275,7 +275,7 @@ const Container = ({ location }) => {
                           }px)`,
                       }}
                     >
-                      t
+                      u
                     </span>
                     <span
                       style={{
@@ -283,7 +283,7 @@ const Container = ({ location }) => {
                           }px)`,
                       }}
                     >
-                      a
+                      c
                     </span>
                     <span
                       style={{
@@ -291,7 +291,7 @@ const Container = ({ location }) => {
                           }px)`,
                       }}
                     >
-                      l
+                      t
                     </span>
                     <span>&nbsp;</span>
                     <span
@@ -424,7 +424,7 @@ const Container = ({ location }) => {
             className="fabric-hero"
           />
         </div>
-        <div
+        {/* <div
           className="project"
           // onClick={() => history.push('/fabric')}
           onClick={() => history.push('/modal')}
@@ -440,8 +440,8 @@ const Container = ({ location }) => {
             </h4>
           </div>
           <img src="/modal-hero.png" alt="Modal" />
-        </div>
-        <div
+        </div> */}
+        {/* <div
           className="project"
           // onClick={() => history.push('/recall')}
           style={{ color: '#191819' }}
@@ -466,7 +466,7 @@ const Container = ({ location }) => {
             src="/les-hero.png"
             alt="LES"
           />
-        </div>
+        </div> */}
 
         {/* <div
           className="project"
