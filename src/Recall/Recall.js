@@ -45,23 +45,28 @@ export const Recall = () => {
           developed entirely by engineers without designers so the product
           basically looked like just the functionality plopped on the page. My
           job was to give the app a real UX foundation with research and
-          design.
+          design.<br /><br />
+          The goals of this project were threefold: to aid current users in their tasks, to attract new users to our product, and to upgrade the visuals of the product.
         </FadeInView>
         <FadeInView component={motion.h1}>Research</FadeInView>
         <FadeInView component={motion.p} >
-          Starting UX research by looking at quantitative data.
+          I started my UX research by looking at quantitative data, which showed that a unexpectedly high number of users were dropping off on the home page. Analytics also revealed that, even though this tool was for UX researchers, other unexpected groups made up a large part of the user base, like software engineers who wanted to record bugs on their devices.
+          <br />
+          <br />
+          I then conducted user interviews with UX researcher users, other users, and prospective UX researcher users to find out what their pain points were, what their user journeys were and how they differed, and where we sat in the market of similar tools and what our strengths and weaknesses were.
         </FadeInView>
         <FadeInView component={motion.img} src="/recall4.png" />
         <FadeInView component={motion.p}>
           Research showed that many new users had trouble getting started and
           didn't know what the purpose of most components on the page were, so a
           new design had to include various empty states and prompts to guide
-          users.
+          users. Guidance was the main pillar for this redesign.
         </FadeInView>
         <FadeInView component={motion.img} src="/recall5.png" />
         <FadeInView component={motion.p}>
-          The design also needed to surface the most salient information to
-          users, based on what they found important in usability tests.
+          Usability tests revealed the information that users felt were the most salient, so the redesign had to emphasize those statistics and make them clear. I created prototypes, ranging from using Figma to real code, to conduct these tests.
+          <br /><br />
+          Users stated in interviews that automated analysis was what set us apart from other competing products, so the design had to make that analysis clear and easily accessible.
         </FadeInView>
         <FadeInView component={motion.img} src="/recall6.png" marginBottom />
         <FadeInView component={motion.img} src="/recall13.png" />
