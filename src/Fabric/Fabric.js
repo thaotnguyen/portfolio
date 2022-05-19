@@ -9,7 +9,7 @@ import FadeInView from '../fadeInView';
 export const Fabric = () => {
   useEffect(() => {
     window.scroll(0, 0);
-    return () => {};
+    return () => { };
   }, []);
 
   return (

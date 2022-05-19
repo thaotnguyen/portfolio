@@ -9,7 +9,7 @@ import FadeInView from '../fadeInView';
 export const Fabric = () => {
   useEffect(() => {
     window.scroll(0, 0);
-    return () => {};
+    return () => { };
   }, []);
 
   return (
@@ -34,7 +34,7 @@ export const Fabric = () => {
           Modal
         </FadeInView>
         <FadeInView component={motion.h2} className="subtitle">
-          A complete brand identity for a fashion-centric social media app for
+          Freelance product design work for a fashion-centric social media app for
           creators, enthusiasts, and influencers.
         </FadeInView>
         {/* <FadeInView
@@ -50,16 +50,14 @@ export const Fabric = () => {
           </a>
           .
         </FadeInView> */}
-        <FadeInView component={motion.img} src="/modal-ad.png" />
+        <FadeInView component={motion.img} src="/modal-ig.gif" />
         <FadeInView component={motion.h1}>At a glance</FadeInView>
         <FadeInView component={motion.p}>
           I was a freelance visual and product designer to create a brand and
           build an app where people could ask questions, learn, and connect over
           fashion.
         </FadeInView>
-        <FadeInView component={motion.p}></FadeInView>
         {/* <FadeInView component={motion.img} src="/modal-mood.png" /> */}
-        <FadeInView component={motion.img} src="/modal-icon.png" marginBottom />
         <FadeInView component={motion.h1}>The team's vision</FadeInView>
         <FadeInView component={motion.p}>
           Modal has 4 brand pillars: being contemporary, accessible,
@@ -72,6 +70,7 @@ export const Fabric = () => {
           is also a modern textile that is often woven into other fabrics to
           make the end result softer and more eco-conscious.
         </FadeInView>
+        <FadeInView component={motion.img} src="/modal-icon.png" marginBottom />
         {/* <FadeInView component={motion.img} src="/modal-process.png" /> */}
         {/* <FadeInView component={motion.h1}>Human-centered logo</FadeInView>
         <FadeInView component={motion.p}>
@@ -83,12 +82,12 @@ export const Fabric = () => {
           and morphs to represent human features.
         </FadeInView> */}
         {/* <FadeInView component={motion.img} src="/modal-icon.png" marginBottom /> */}
-        <FadeInView
+        {/* <FadeInView
           component={motion.img}
           src="/modal-ig.gif"
           style={{ marginBottom: 64 }}
-        />
-        <FadeInView
+        /> */}
+        {/* <FadeInView
           component={motion.img}
           src="/modal-cards.png"
           marginBottom
@@ -98,7 +97,7 @@ export const Fabric = () => {
           component={motion.img}
           src="/modal-billboard.png"
           marginBottom
-        />
+        /> */}
         {/* <FadeInView
           component={motion.img}
           src="/modal-font.png"

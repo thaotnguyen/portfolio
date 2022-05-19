@@ -36,8 +36,8 @@ const Container = ({ location }) => {
     '#191819',
     '#191819',
     '#420046',
+    '#32520a',
     '#011150',
-    // '#32520a',
     // '#333333',
     // '#004430',
     '#191819',
@@ -370,7 +370,7 @@ const Container = ({ location }) => {
         <div style={{ height: '12vh' }} />
         <div className="blurb">
           <p>
-            Hi, I'm Thao and I'm a visual and digital designer at Local Projects and based
+            Hi, I'm Thao and I'm a visual and product designer at Local Projects and based
             in NYC and the SF Bay Area. I create experiences ranging from media-based storytelling
             to museum graphics for clients including IBM and EY.
           </p>
@@ -387,7 +387,7 @@ const Container = ({ location }) => {
           className="project"
           // onClick={() => history.push('/recall')}
           style={{ color: '#191819' }}
-          onClick={() => window.open('/recall.pdf', '_blank')}
+          onClick={() => history.push('/recall')}
         >
           <div className="project-content">
             <h5>Full case study</h5>
@@ -403,6 +403,23 @@ const Container = ({ location }) => {
             src="/recall-thumbnail.png"
             alt="Recall"
           />
+        </div>
+        <div
+          className="project"
+          // onClick={() => history.push('/fabric')}
+          onClick={() => history.push('/modal')}
+        >
+          <div className="project-content">
+            <h5>Full case study</h5>
+            <h1>Modal</h1>
+            <h4>
+              <span>Product design</span> for a
+              fashion-centric social media app where users can learn from
+              others, share their outfits and knowledge, and expand their
+              fashion experience.
+            </h4>
+          </div>
+          <img src="/modal-hero.png" alt="Modal" />
         </div>
         <div
           className="project"
@@ -424,23 +441,6 @@ const Container = ({ location }) => {
             className="fabric-hero"
           />
         </div>
-        {/* <div
-          className="project"
-          // onClick={() => history.push('/fabric')}
-          onClick={() => history.push('/modal')}
-        >
-          <div className="project-content">
-            <h5>Full case study</h5>
-            <h1>Modal</h1>
-            <h4>
-              <span>Brand identity</span> and <span>product design</span> for a
-              fashion-centric social media app where users can learn from
-              others, share their outfits and knowledge, and expand their
-              fashion experience.
-            </h4>
-          </div>
-          <img src="/modal-hero.png" alt="Modal" />
-        </div> */}
         {/* <div
           className="project"
           // onClick={() => history.push('/recall')}
