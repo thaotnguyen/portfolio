@@ -36,7 +36,7 @@ const Container = ({ location }) => {
     '#191819',
     '#191819',
     '#420046',
-    '#32520a',
+    // '#32520a',
     '#011150',
     // '#333333',
     // '#004430',
@@ -404,7 +404,7 @@ const Container = ({ location }) => {
             alt="Recall"
           />
         </div>
-        <div
+        {/* <div
           className="project"
           // onClick={() => history.push('/fabric')}
           onClick={() => history.push('/modal')}
@@ -420,7 +420,7 @@ const Container = ({ location }) => {
             </h4>
           </div>
           <img src="/modal-hero.png" alt="Modal" />
-        </div>
+        </div> */}
         <div
           className="project"
           // onClick={() => history.push('/fabric')}
