@@ -103,12 +103,12 @@ export const Fabric = () => {
           src="/fabric-shirt.png"
           marginBottom
         />
-        <FadeInView component={motion.img} src="/fabric-cup.png" marginBottom />
-        <FadeInView
+        {/* <FadeInView component={motion.img} src="/fabric-cup.png" marginBottom /> */}
+        {/* <FadeInView
           component={motion.img}
           src="/fabric-mask.png"
           marginBottom
-        />
+        /> */}
         {/* <FadeInView component={motion.h1}>A versatile brand</FadeInView>
         <FadeInView component={motion.p}>
           The brand can be extended to all kinds of media easily, from physical

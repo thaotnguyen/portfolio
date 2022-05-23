@@ -36,7 +36,7 @@ const Container = ({ location }) => {
     '#191819',
     '#191819',
     '#420046',
-    // '#32520a',
+    '#32520a',
     '#011150',
     // '#333333',
     // '#004430',
@@ -63,20 +63,20 @@ const Container = ({ location }) => {
         <div
           className="body"
           style={{
-            opacity: scroll > 1500 ? 0 : 1,
+            opacity: scroll > 1000 ? 0 : 1,
             height: windowHeight + 1000,
             pointerEvents: scroll > window.innerHeight ? 'none' : 'auto',
           }}
         >
           <div className={classnames('title', 'container')}>
-            <div className="landing" style={{ color: `rgba(219,191,176,${1 - scroll / 1500})` }}>
+            <div className="landing" style={{ color: `rgba(219,191,176,${1 - scroll / 1000})` }}>
               <div className="container">
                 <div
                   className="header right"
                   style={{ opacity: loaded ? 1 : 0 }}
                 >
                   <h1>
-                    <span className="name" style={{ color: `rgba(255,255,255,${1 - scroll / 1500})` }}>
+                    <span className="name" style={{ color: `rgba(255,255,255,${1 - scroll / 1000})` }}>
                       <span
                         style={{
                           transform: `translateY(${endCoordinates[0] * (scroll / 1500)
@@ -404,7 +404,7 @@ const Container = ({ location }) => {
             alt="Recall"
           />
         </div>
-        {/* <div
+        <div
           className="project"
           // onClick={() => history.push('/fabric')}
           onClick={() => history.push('/modal')}
@@ -420,7 +420,7 @@ const Container = ({ location }) => {
             </h4>
           </div>
           <img src="/modal-hero.png" alt="Modal" />
-        </div> */}
+        </div>
         <div
           className="project"
           // onClick={() => history.push('/fabric')}
