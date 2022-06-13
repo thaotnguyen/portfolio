@@ -12,6 +12,9 @@ import LGBT from '../LGBT';
 import Archive from '../Archive';
 import LES from '../LES';
 import DSA from '../DSA';
+import Picasso from '../Picasso';
+import NUL from '../NUL';
+import IBM from '../IBM';
 
 import './Body.scss';
 
@@ -91,6 +94,9 @@ function Body() {
         <Route path="/lgbt" component={LGBT} />
         <Route path="/dsa" component={DSA} />
         <Route path="/les" component={LES} />
+        <Route path="/ibm" component={IBM} />
+        <Route path="/nul" component={NUL} />
+        <Route path="/picasso" component={Picasso} />
       </Switch>
       {/* </AnimatePresence> */}
     </div>

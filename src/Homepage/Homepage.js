@@ -26,7 +26,7 @@ const Container = ({ location }) => {
     setLoaded(true);
     setScroll(window.scrollY);
     window.addEventListener('scroll', handleScroll, true);
-    return () => { };
+    return () => {};
   }, []);
 
   const windowHeight = window.innerHeight;
@@ -37,9 +37,10 @@ const Container = ({ location }) => {
     '#191819',
     '#420046',
     '#32520a',
-    '#011150',
-    // '#333333',
-    // '#004430',
+    '#211150',
+    '#000d7c',
+    '#502330',
+    '#440000',
     '#191819',
   ];
 
@@ -69,42 +70,54 @@ const Container = ({ location }) => {
           }}
         >
           <div className={classnames('title', 'container')}>
-            <div className="landing" style={{ color: `rgba(219,191,176,${1 - scroll / 1000})` }}>
+            <div
+              className="landing"
+              style={{ color: `rgba(219,191,176,${1 - scroll / 1000})` }}
+            >
               <div className="container">
                 <div
                   className="header right"
                   style={{ opacity: loaded ? 1 : 0 }}
                 >
                   <h1>
-                    <span className="name" style={{ color: `rgba(255,255,255,${1 - scroll / 1000})` }}>
+                    <span
+                      className="name"
+                      style={{
+                        color: `rgba(255,255,255,${1 - scroll / 1000})`,
+                      }}
+                    >
                       <span
                         style={{
-                          transform: `translateY(${endCoordinates[0] * (scroll / 1500)
-                            }px)`,
+                          transform: `translateY(${
+                            endCoordinates[0] * (scroll / 1500)
+                          }px)`,
                         }}
                       >
                         t
                       </span>
                       <span
                         style={{
-                          transform: `translateY(${endCoordinates[1] * (scroll / 1500)
-                            }px)`,
+                          transform: `translateY(${
+                            endCoordinates[1] * (scroll / 1500)
+                          }px)`,
                         }}
                       >
                         h
                       </span>
                       <span
                         style={{
-                          transform: `translateY(${endCoordinates[2] * (scroll / 1500)
-                            }px)`,
+                          transform: `translateY(${
+                            endCoordinates[2] * (scroll / 1500)
+                          }px)`,
                         }}
                       >
                         a
                       </span>
                       <span
                         style={{
-                          transform: `translateY(${endCoordinates[3] * (scroll / 1500)
-                            }px)`,
+                          transform: `translateY(${
+                            endCoordinates[3] * (scroll / 1500)
+                          }px)`,
                         }}
                       >
                         o
@@ -112,48 +125,54 @@ const Container = ({ location }) => {
                       <span>&nbsp;</span>
                       <span
                         style={{
-                          transform: `translateY(${endCoordinates[4] * (scroll / 1500)
-                            }px)`,
+                          transform: `translateY(${
+                            endCoordinates[4] * (scroll / 1500)
+                          }px)`,
                         }}
                       >
                         n
                       </span>
                       <span
                         style={{
-                          transform: `translateY(${endCoordinates[5] * (scroll / 1500)
-                            }px)`,
+                          transform: `translateY(${
+                            endCoordinates[5] * (scroll / 1500)
+                          }px)`,
                         }}
                       >
                         g
                       </span>
                       <span
                         style={{
-                          transform: `translateY(${endCoordinates[6] * (scroll / 1500)
-                            }px)`,
+                          transform: `translateY(${
+                            endCoordinates[6] * (scroll / 1500)
+                          }px)`,
                         }}
                       >
                         u
                       </span>
                       <span
                         style={{
-                          transform: `translateY(${endCoordinates[7] * (scroll / 1500)
-                            }px)`,
+                          transform: `translateY(${
+                            endCoordinates[7] * (scroll / 1500)
+                          }px)`,
                         }}
                       >
                         y
                       </span>
                       <span
                         style={{
-                          transform: `translateY(${endCoordinates[8] * (scroll / 1500)
-                            }px)`,
+                          transform: `translateY(${
+                            endCoordinates[8] * (scroll / 1500)
+                          }px)`,
                         }}
                       >
                         e
                       </span>
                       <span
                         style={{
-                          transform: `translateY(${endCoordinates[9] * (scroll / 1500)
-                            }px)`,
+                          transform: `translateY(${
+                            endCoordinates[9] * (scroll / 1500)
+                          }px)`,
                         }}
                       >
                         n
@@ -169,54 +188,61 @@ const Container = ({ location }) => {
                     <span>&#8213;</span>
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[10] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[10] * (scroll / 1500)
+                        }px)`,
                       }}
                     ></span>
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[11] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[11] * (scroll / 1500)
+                        }px)`,
                       }}
                     >
                       v
                     </span>
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[12] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[12] * (scroll / 1500)
+                        }px)`,
                       }}
                     >
                       i
                     </span>
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[13] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[13] * (scroll / 1500)
+                        }px)`,
                       }}
                     >
                       s
                     </span>
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[14] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[14] * (scroll / 1500)
+                        }px)`,
                       }}
                     >
                       u
                     </span>
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[15] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[15] * (scroll / 1500)
+                        }px)`,
                       }}
                     >
                       a
                     </span>
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[16] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[16] * (scroll / 1500)
+                        }px)`,
                       }}
                     >
                       l
@@ -224,8 +250,9 @@ const Container = ({ location }) => {
                     <span>&nbsp;</span>
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[17] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[17] * (scroll / 1500)
+                        }px)`,
                       }}
                     >
                       &amp;
@@ -239,56 +266,63 @@ const Container = ({ location }) => {
                   <h1 className="title2">
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[18] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[18] * (scroll / 1500)
+                        }px)`,
                       }}
                     >
                       p
                     </span>
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[19] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[19] * (scroll / 1500)
+                        }px)`,
                       }}
                     >
                       r
                     </span>
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[20] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[20] * (scroll / 1500)
+                        }px)`,
                       }}
                     >
                       o
                     </span>
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[21] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[21] * (scroll / 1500)
+                        }px)`,
                       }}
                     >
                       d
                     </span>
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[22] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[22] * (scroll / 1500)
+                        }px)`,
                       }}
                     >
                       u
                     </span>
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[23] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[23] * (scroll / 1500)
+                        }px)`,
                       }}
                     >
                       c
                     </span>
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[24] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[24] * (scroll / 1500)
+                        }px)`,
                       }}
                     >
                       t
@@ -296,64 +330,72 @@ const Container = ({ location }) => {
                     <span>&nbsp;</span>
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[25] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[25] * (scroll / 1500)
+                        }px)`,
                       }}
                     >
                       d
                     </span>
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[26] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[26] * (scroll / 1500)
+                        }px)`,
                       }}
                     >
                       e
                     </span>
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[27] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[27] * (scroll / 1500)
+                        }px)`,
                       }}
                     >
                       s
                     </span>
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[28] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[28] * (scroll / 1500)
+                        }px)`,
                       }}
                     >
                       i
                     </span>
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[29] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[29] * (scroll / 1500)
+                        }px)`,
                       }}
                     >
                       g
                     </span>
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[30] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[30] * (scroll / 1500)
+                        }px)`,
                       }}
                     >
                       n
                     </span>
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[31] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[31] * (scroll / 1500)
+                        }px)`,
                       }}
                     >
                       e
                     </span>
                     <span
                       style={{
-                        transform: `translateY(${endCoordinates[32] * (scroll / 1500)
-                          }px)`,
+                        transform: `translateY(${
+                          endCoordinates[32] * (scroll / 1500)
+                        }px)`,
                       }}
                     >
                       r
@@ -370,9 +412,10 @@ const Container = ({ location }) => {
         <div style={{ height: '12vh' }} />
         <div className="blurb">
           <p>
-            Hi, I'm Thao and I'm a visual and product designer at Local Projects and based
-            in NYC and the SF Bay Area. I create experiences ranging from media-based storytelling
-            to museum graphics for clients including IBM and EY.
+            Hi, I'm Thao and I'm a visual and product designer at Local Projects
+            and based in NYC and the SF Bay Area. I create experiences ranging
+            from media-based storytelling to museum graphics for clients
+            including IBM and EY.
           </p>
           <p>
             I have a huge appetite for learning, growth, and new experiences and
@@ -413,10 +456,9 @@ const Container = ({ location }) => {
             <h5>Full case study</h5>
             <h1>Modal</h1>
             <h4>
-              <span>Product design</span> for a
-              fashion-centric social media app where users can learn from
-              others, share their outfits and knowledge, and expand their
-              fashion experience.
+              <span>Product design</span> for a fashion-centric social media app
+              where users can learn from others, share their outfits and
+              knowledge, and expand their fashion experience.
             </h4>
           </div>
           <img src="/modal-hero.png" alt="Modal" />
@@ -430,14 +472,71 @@ const Container = ({ location }) => {
             <h5>Full case study</h5>
             <h1>Fabric UX</h1>
             <h4>
-              <span>Brand identity</span> for an internal team within Google
-              Ads. Built to bring together three teams under one united
-              identity.
+              <span>Visual design</span> and brand identity for an internal team
+              within Google Ads. Built to bring together three teams under one
+              united identity.
             </h4>
           </div>
           <img
             src="/fabric-thumbnail.png"
             alt="Fabric UX"
+            className="fabric-hero"
+          />
+        </div>
+        <div
+          className="project"
+          // onClick={() => history.push('/fabric')}
+          onClick={() => history.push('/ibm')}
+        >
+          <div className="project-content">
+            <h5>Full case study</h5>
+            <h1>IBM</h1>
+            <h4>
+              <span>Production design</span> for a flexible and versatile tool
+              at IBM used to map flows, structures, organizations, and more.
+            </h4>
+          </div>
+          <img src="/ibm-home.png" alt="IBM" className="fabric-hero" />
+        </div>
+        <div
+          className="project"
+          // onClick={() => history.push('/fabric')}
+          onClick={() => history.push('/picasso')}
+        >
+          <div className="project-content">
+            <h5>Full case study</h5>
+            <h1>Imagine Picasso</h1>
+            <h4>
+              <span>Visual design</span> for the intro experience of an
+              immersive art exhibit in San Francisco featuring Picasso's work
+              and highlighting his life.
+            </h4>
+          </div>
+          <img
+            src="/picasso-home.png"
+            alt="Imagine Picasso"
+            className="fabric-hero"
+          />
+        </div>
+        <div
+          className="project"
+          // onClick={() => history.push('/fabric')}
+          onClick={() => history.push('/nul')}
+        >
+          <div className="project-content">
+            <h5>Full case study</h5>
+            <h1 style={{ lineHeight: 1.1, marginBottom: 16 }}>
+              Urban Civil Rights Museum
+            </h1>
+            <h4>
+              <span>Visual design</span> for a museum from the National Urban
+              League to be located in Harlem, including brand identity and
+              overall look and feel.
+            </h4>
+          </div>
+          <img
+            src="/nul-home.png"
+            alt="Urban Civil Rights Museum"
             className="fabric-hero"
           />
         </div>
@@ -467,8 +566,8 @@ const Container = ({ location }) => {
             alt="LES"
           />
         </div> */}
-
-        {/* <div
+        {/* 
+        <div
           className="project"
           // onClick={() => history.push('/fabric')}
           onClick={() => history.push('/lgbt')}
@@ -479,9 +578,9 @@ const Container = ({ location }) => {
               LGBT Asylum Project
             </h1>
             <h4>
-              <span>Branding</span> for the LGBT Asylum Project, a nonprofit
-              that provides legal assistance to LGBTQ+ people who are facing
-              persecution.
+              <span>Visual design</span> for the LGBT Asylum Project, a
+              nonprofit that provides legal assistance to LGBTQ+ people who are
+              facing persecution.
             </h4>
           </div>
           <img src="/lgbtq-hero.png" alt="LGBT Asylum Project" />
