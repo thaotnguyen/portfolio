@@ -415,7 +415,7 @@ const Container = ({ location }) => {
             Hi, I'm Thao and I'm a visual and product designer at Local Projects
             and based in NYC and the SF Bay Area. I create experiences ranging
             from media-based storytelling to museum graphics for clients
-            including IBM and EY.
+            including NUL and EY.
           </p>
           <p>
             I have a huge appetite for learning, growth, and new experiences and
@@ -483,7 +483,7 @@ const Container = ({ location }) => {
             className="fabric-hero"
           />
         </div>
-        <div
+        {/* <div
           className="project"
           // onClick={() => history.push('/fabric')}
           onClick={() => history.push('/ibm')}
@@ -497,7 +497,7 @@ const Container = ({ location }) => {
             </h4>
           </div>
           <img src="/ibm-home.png" alt="IBM" className="fabric-hero" />
-        </div>
+        </div> */}
         <div
           className="project"
           // onClick={() => history.push('/fabric')}
